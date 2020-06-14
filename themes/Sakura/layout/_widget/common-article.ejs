@@ -11,12 +11,12 @@
       <%- post.title %></h1>
       <p class="entry-census">
         <span>
-          <a href="<%- post.authorLink%>">
-            <img src="<%- post.avatar%>">
+          <a href="<%- post.authorLink||theme.url%>">
+            <img src="<%- post.avatar||((theme.cdn || '') + theme.avatar) %>">
           </a>
         </span>
         <span>
-          <a href="<%- post.authorLink%>"><%- post.author %></a>
+          <a href="<%- post.authorLink||theme.url%>"><%- post.author||config.author %></a>
         </span>
         <span class="bull">
         ·</span>
@@ -35,7 +35,7 @@
         <% if (!post.photos[0]){ %>
           <header class="entry-header">
             <h1 class="entry-title"><%- post.title %></h1>
-            <p class="entry-census"><%- post.author %>&nbsp;·&nbsp;<%= date(post.date, 'YYYY-M-D') %>&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+            <p class="entry-census"><%- post.author||config.author %>&nbsp;·&nbsp;<%= date(post.date, 'YYYY-M-D') %>&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
 
             <hr>
           </header>
@@ -112,16 +112,16 @@
       <%- partial('_partial/comment') %>
       <section class="author-profile">
         <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
-          <a href="<%- post.authorLink %>" class="profile gravatar"><img src="<%- post.avatar%>" itemprop="image" alt="<%- post.author %>" height="70" width="70"></a>
+          <a href="<%- post.authorLink||'/about' %>" class="profile gravatar"><img src="<%- post.avatar||((theme.cdn || '') + theme.avatar) %>" itemprop="image" alt="<%- post.author||config.author %>" height="70" width="70"></a>
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="<%- post.authorLink%>" itemprop="url" rel="author"><%- post.author %></a>
+            <a href="<%- post.authorLink||theme.url %>" itemprop="url" rel="author"><%- post.author||config.author %></a>
             </h3>
           </div>
         </div>
         <hr>
-        <p><i class="iconfont icon-write"></i><%- post.authorAbout%></p>
+        <p><i class="iconfont icon-write"></i><%- post.authorAbout||theme.description%></p>
       </section>
     </main><!-- #main -->
   </div><!-- #primary -->
