@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">归档: 2020 | Jasonの个人博客</title>
+  <title itemprop="name">Kirikiroid2使用指南 | Jasonの个人博客</title>
   
     <link rel="shortcut icon" href="/images/favicon.ico">
   
@@ -297,78 +297,141 @@
   </div>
 </header>
 
-      <div class="blank" style="padding-top: 75px;">
-</div>
-<div id="content" class="site-content">
-  <div id="main">
-    <header class="page-header">
-      <h1 class="cat-title">
-      归档</h1>
-      <span class="cat-des">
-        <p>
-        Archives</p>
-      </span>
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<div class="pattern-center-blank"></div>
+
+  <div class="pattern-center single-center">
+    <!-- 有配图默认渲染第一张 -->
+    <div class="pattern-attachment-img lazyload" style="background-image: url(http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg">
+    </div>
+    <header class="pattern-header single-header">
+      <h1 class="entry-title">
+      Kirikiroid2使用指南</h1>
+      <p class="entry-census">
+        <span>
+          <a href="https://zhizunjiege.github.io">
+            <img src="/img/others/avatar.jpg">
+          </a>
+        </span>
+        <span>
+          <a href="https://zhizunjiege.github.io">Jason</a>
+        </span>
+        <span class="bull">
+        ·</span>
+        2020-6-20<span class="bull">
+        ·</span>
+      <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
-    <div id="main-part">
-      <article class="art">
-        <div class="art-main">
-          <div class="art-content">
-            <div id="archives">
-              <p style="text-align:right;">
-                [<span id="al_expand_collapse" style="cursor: s-resize;">
-                全部展开/收缩</span>
-              ]</p>
-              
-              
-              
-              
-              
-                
-                <h3 class="al_year">2020年</h3>
-              
-              
-                
-                <ul class="al_mon_list">
-                  <li class="al_li">
-                    <span class="al_mon" style="cursor: s-resize;">
-                      06月(<span id="post-num">
-                      3</span>
-                    篇文章)</span>
-                    <ul class="al_post_list" style="">
-              
-                      <li>
-                        <a href="/2020/06/20/Kirikiroid2%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
-                          <span style="color:#0bf;">
-                          20日13:10:20</span>
-                          Kirikiroid2使用指南
-                        </a>
-                      </li>
-                      
-              
-              
-              
-              
-              
-                      <li>
-                        <a href="/2020/06/14/hello-world/">
-                          <span style="color:#0bf;">
-                          14日10:48:42</span>
-                          Hello world，这是新的开始
-                        </a>
-                      </li>
-                      
-                    </ul>
-                  </li>
-                </ul>
-              
-              
+  </div>
+
+<div id="content" class="site-content">
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+        <div class="entry-content">
+          <!-- # 目录
+
+> [前言](#前言)  
+> [1.安装软件](#1-安装软件)    
+> [2.准备补丁](#2-准备补丁)  
+> [3.下载游戏](#3-下载游戏)     
+> [4.运行游戏](#4-运行游戏)  
+> [后记](#后记) -->
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote>
+<p>&emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。<br>&emsp;&emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇<a href="https://www.marron.work/2017/03/95/" target="_blank" rel="noopener" title="(完全版？)Kirikiroid2とXP3Playerの使い方">日文教程</a>，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  </p>
+<h3 id="注意："><a href="#注意：" class="headerlink" title="注意："></a><strong>注意：</strong></h3><p>&emsp;&emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  </p>
+</blockquote>
+<hr>
+<h2 id="1-安装软件"><a href="#1-安装软件" class="headerlink" title="1. 安装软件"></a>1. 安装软件</h2><p>&emsp;&emsp;可以去Kirikiroid2的<a href="https://github.com/zeas2/Kirikiroid2/releases" target="_blank" rel="noopener" title="下载">github仓库</a>页面下载最新版的安装包，但网速一般很慢，结合这个<a href="https://shrill-pond-3e81.hunsh.workers.dev/" target="_blank" rel="noopener" title="文件下载加速">github下载加速网站</a>速度稍微快点，使用方法一看就懂。或者从我分享的<a href="https://wws.lanzous.com/b01hgaaaf" target="_blank" rel="noopener" title="密码：87pb">蓝奏云链接</a>来下载，密码：87pb。当然，你也可以去Google Play付费购买，安卓系统的叫Kirikiroid2，IOS的叫Xp3player。<br>&emsp;&emsp;推荐蓝奏云下载，速度很快。</p>
+<hr>
+<h2 id="2-准备补丁"><a href="#2-准备补丁" class="headerlink" title="2. 准备补丁"></a>2. 准备补丁</h2><p>&emsp;&emsp;由于游戏文件进行了一定加密，很多游戏如果没有补丁就无法运行，当然也有些游戏无需补丁就可以启动，但我还是建议去以下网站搜索一下有没有对应的补丁  </p>
+<blockquote>
+<ol>
+<li><a href="https://zeas2.github.io/Kirikiroid2_patch/patch/" target="_blank" rel="noopener" title="Kirikiroid2项目作者个人博客">Patch List(GitHub.io)</a>  </li>
+<li><a href="http://avgfun.net/viewforum.php?f=4&sid=c0406ca29618c05c53c262823d3a115e" target="_blank" rel="noopener" title="未验证">AVGFun</a>  </li>
+</ol>
+</blockquote>
+<p>&emsp;&emsp;以第一个网站为例，搜索「枯れない世界と終わる花」<br><img src="/img/post/kirikiroid2/1.webp" alt="图片1"><br>&emsp;&emsp;点击左边的GET即可下载补丁。<br>&emsp;&emsp;如果找到了对应的补丁，下载下来并解压。没找到的话也可以尝试接下来的步骤，但有一定概率失败。补丁一般包含一个xp3filter.tjs文件，此外还<strong>可能</strong>有一个krz_xp3conv.exe可执行文件。</p>
+<hr>
+<h2 id="3-下载游戏"><a href="#3-下载游戏" class="headerlink" title="3. 下载游戏"></a>3. 下载游戏</h2><p>&emsp;&emsp;找到你想要玩的游戏并下载，将之前下载好的补丁里的文件全部放到游戏文件夹下，以「枯れない世界と終わる花」为例，其文件夹结构如下图所示<br><img src="/img/post/kirikiroid2/2.webp" alt="图片2"><br>&emsp;&emsp;不同的游戏可能有不同的结构，但一般有xp3文件和plugin文件夹里的dll文件。如果之前的补丁里有krz_xp3conv.exe，双击运行它，等到控制台出现“按任意键继续……”的文字时，表示文件解密成功；没有该exe文件则直接进入下一步。  </p>
+<hr>
+<h2 id="4-运行游戏"><a href="#4-运行游戏" class="headerlink" title="4. 运行游戏"></a>4. 运行游戏</h2><p>&emsp;&emsp;将整个游戏文件夹复制到手机内存中，打开Kirikiroid2，利用软件内的文件管理器找到游戏文件夹，点击文件夹下的data.xp3。初次运行时会出现一个操作介绍页面，点击右上角的“X”关闭即可，等待一会儿，脚本执行完毕，游戏就可以成功运行。<br><img src="/img/post/kirikiroid2/3.webp" alt="图片3">  </p>
+<hr>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><blockquote>
+<p>&emsp;&emsp;赤西真論曾在他的教程最后说到，他在尝试运行「枯れない世界と終わる花」这款游戏时遭到了挫败，解密文件的时候出错，所以他选择了放弃，而我特意选择了这款游戏来做我的例子2333。我曾给他留言问询是否可以将他的教程翻译为中文，但最终也未能收到回复，现在都一年多了。</p>
+</blockquote>
+<hr>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="/img/donate/AliPayQR.jpg"></li>
+                <li class="wechat-code"><img src="/img/donate/WeChatQR.png"></li>
+              </ul>
             </div>
           </div>
         </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
       </article>
-    </div>
-  </div>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2020/06/14/hello-world/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="/img/post/cover.webp" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="/img/post/cover.webp">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                Hello world，这是新的开始</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
+      
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="/about" class="profile gravatar"><img src="/img/others/avatar.jpg" itemprop="image" alt="Jason" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="https://zhizunjiege.github.io" itemprop="url" rel="author">Jason</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i>仰望星空，脚踏实地。</p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
 
     </div>    
     <div class="ins-search">
