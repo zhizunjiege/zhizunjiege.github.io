@@ -367,35 +367,45 @@
 <h3 id="1-3-cmake程序"><a href="#1-3-cmake程序" class="headerlink" title="1.3 cmake程序"></a>1.3 cmake程序</h3><p>&emsp;&emsp;cmake可以去<a href="https://cmake.org/download/" target="_blank" rel="noopener" title="cmake官网下载链接">官网下载</a>，找到符合自己设备配置的安装程序下载后安装即可，安装时最好勾选“添加桌面图标”。</p>
 <hr>
 <h2 id="2-编译安装"><a href="#2-编译安装" class="headerlink" title="2. 编译安装"></a>2. 编译安装</h2><h3 id="2-1-编译"><a href="#2-1-编译" class="headerlink" title="2.1 编译"></a>2.1 编译</h3><p>&emsp;&emsp;打开cmake GUI程序，分别点击“Browse Source…”和“Browse Build…”选择好之前解压的源代码文件夹和新建的build文件夹，如下图所示：  </p>
-<p><img src="/img/post/openv4/%E9%80%89%E6%8B%A9%E6%BA%90%E4%BB%A3%E7%A0%81.webp" alt="选择源代码" title="选择源代码"></p>
+<p><img src="/img/post/opencv4/%E9%80%89%E6%8B%A9%E6%BA%90%E4%BB%A3%E7%A0%81.webp" alt="选择源代码" title="选择源代码"></p>
 <p>&emsp;&emsp;点击“Configure”，在“Specify the generator for this project”中选择“MinGW Makefiles”，下方的单选框选择“Specify native compilers”,如下图所示：  </p>
 <p><img src="https://img2020.cnblogs.com/blog/772331/202005/772331-20200520002613565-1182638410.png" alt="选择makefile配置" title="选择makefile配置"></p>
 <p>&emsp;&emsp;点击“Next”，选择c和c++编译器，分别是你安装mingw-w64的目录下的bin文件夹中的gcc.exe和g++.exe，如下图所示：  </p>
-<p><img src="/img/post/openv4/%E9%80%89%E6%8B%A9%E7%BC%96%E8%AF%91%E5%99%A8.webp" alt="选择编译器" title="选择编译器"></p>
+<p><img src="/img/post/opencv4/%E9%80%89%E6%8B%A9%E7%BC%96%E8%AF%91%E5%99%A8.webp" alt="选择编译器" title="选择编译器"></p>
 <p>&emsp;&emsp;点击“Finish”，等待一段时间（请保持耐心），直到配置完成，如下图所示：  </p>
-<p><img src="/img/post/openv4/%E9%85%8D%E7%BD%AE%E5%AE%8C%E6%88%90.webp" alt="配置完成" title="配置完成">  </p>
+<p><img src="/img/post/opencv4/%E9%85%8D%E7%BD%AE%E5%AE%8C%E6%88%90.webp" alt="配置完成" title="配置完成">  </p>
 <blockquote>
-<h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a><strong>注意</strong></h3><p>&emsp;&emsp;如果配置失败，并且具有“opencv_ffmpeg.dll下载失败”之类的报错信息，请将<a href="#4-资源链接">资源链接</a>中下载的ffmpeg文件夹中内容复制到源代码目录下.cache/ffmpeg文件夹中，如下图所示：  </p>
-<p><img src="/img/post/openv4/ffmpeg.webp" alt="ffmpeg" title="ffmpeg">  </p>
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a><strong>注意</strong></h4><p>&emsp;&emsp;如果配置失败，并且具有“opencv_ffmpeg.dll下载失败”之类的报错信息，请将<a href="#4-资源链接">资源链接</a>中下载的ffmpeg文件夹中内容复制到源代码目录下.cache/ffmpeg文件夹中，如下图所示：  </p>
+<p><img src="/img/post/opencv4/ffmpeg.webp" alt="ffmpeg" title="ffmpeg">  </p>
 </blockquote>
 <p>&emsp;&emsp;配置成功后，可以看到cmake界面上出现很多配置项。这些配置可以按需修改，前提是你得理解这些配置代表什么含义。我只能模糊地理解其中一部分，在此就不解释了。下面是我所用的配置，追求编译速度尽量快而且功能够用即可。想修改的话请自行查阅其他资料，一个原则是：对不确定的配置项不做改动，沿用默认值即可。  </p>
 <p>&emsp;&emsp;需要取消勾选的项是： </p>
-<pre><code>BUILD_JAVA
-BUILD_PERF_TESTS
-BUILD_TESTS</code></pre><p>&emsp;&emsp;需要勾选的项是：</p>
-<pre><code>BUILD_opencv_world
-WITH_OPENGL</code></pre><p>&emsp;&emsp;配置完后再次点击“Configure”，直到页面由红变白，然后点击“Generate”。  </p>
-<p>&emsp;&emsp;来到build文件夹下，在此处打开cmd或powershell窗口，执行命令  </p>
-<pre><code>&gt; mingw32-make -j 8</code></pre><p>&emsp;&emsp;其中 <code>-j</code> 是控制编译所用线程数的参数，这可以根据电脑性能来决定，电脑不好的话可以改成4线程。等待编译完成，这需要花费一定时间。</p>
 <blockquote>
-<h3 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a><strong>注意</strong></h3><p>&emsp;&emsp;如果编译失败，且报错信息如下图所示，则手动执行命令  </p>
-<pre><code>&gt; cd modules/world
-&gt; windres vs_version.rc -O coff CMakeFiles\opencv_world.dir\vs_version.rc.obj
-&gt; mingw32-make -j 8</code></pre><p>&emsp;&emsp;结果见下图：  </p>
-<p>  <img src="/img/post/openv4/%E7%BC%96%E8%AF%91%E6%8A%A5%E9%94%99.webp" alt="编译报错" title="编译报错">   </p>
+<ol>
+<li>BUILD_JAVA</li>
+<li>BUILD_PERF_TESTS</li>
+<li>BUILD_TESTS</li>
+</ol>
+</blockquote>
+<p>&emsp;&emsp;需要勾选的项是：</p>
+<blockquote>
+<ol>
+<li>BUILD_opencv_world</li>
+<li>WITH_OPENGL</li>
+</ol>
+</blockquote>
+<p>&emsp;&emsp;配置完后再次点击“Configure”，直到页面由红变白，然后点击“Generate”。  </p>
+<p>&emsp;&emsp;来到build文件夹下，在此处打开cmd或powershell窗口，执行命令  </p>
+<pre><code>mingw32-make -j 8</code></pre><p>&emsp;&emsp;其中 <code>-j</code> 是控制编译所用线程数的参数，这可以根据电脑性能来决定，电脑不好的话可以改成4线程。等待编译完成，这需要花费一定时间。</p>
+<blockquote>
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a><strong>注意</strong></h4><p>&emsp;&emsp;如果编译失败，且报错信息如下图所示，则手动执行命令  </p>
+<pre><code>cd modules/world
+windres vs_version.rc -O coff CMakeFiles\opencv_world.dir\vs_version.rc.obj
+mingw32-make -j 8</code></pre><p>&emsp;&emsp;结果见下图：  </p>
+<p>  <img src="/img/post/opencv4/%E7%BC%96%E8%AF%91%E6%8A%A5%E9%94%99.webp" alt="编译报错" title="编译报错">   </p>
 </blockquote>
 <h3 id="2-2-安装"><a href="#2-2-安装" class="headerlink" title="2.2 安装"></a>2.2 安装</h3><p>&emsp;&emsp;编译完成后，在控制台窗口继续执行  </p>
-<pre><code>&gt; mingw32-make install</code></pre><p>&emsp;&emsp;等待安装完成。在这次安装过程中，我发现少安装了几个文件，需要手动复制过去。这些文件如下：</p>
+<pre><code>mingw32-make install</code></pre><p>&emsp;&emsp;等待安装完成。在这次安装过程中，我发现少安装了几个文件，需要手动复制过去。这些文件如下：</p>
 <blockquote>
 <ol>
 <li>opencv4.4.0/include/opencv2/opencv2.hpp</li>
@@ -418,7 +428,7 @@ WITH_OPENGL</code></pre><p>&emsp;&emsp;配置完后再次点击“Configure”�
 </ol>
 </blockquote>
 <p>&emsp;&emsp;写一段示例程序并找一张图片用来测试，执行 Ctrl+Shift+B 编译程序，再执行 Ctrl+Shift+T 运行程序，如果没有错误，你将看到图片显示在窗口中。</p>
-<p><img src="/img/post/openv4/%E6%B5%8B%E8%AF%95%E6%88%90%E5%8A%9F.webp" alt="测试成功" title="测试成功"></p>
+<p><img src="/img/post/opencv4/%E6%B5%8B%E8%AF%95%E6%88%90%E5%8A%9F.webp" alt="测试成功" title="测试成功"></p>
 <hr>
 <h2 id="4-资源链接"><a href="#4-资源链接" class="headerlink" title="4. 资源链接"></a>4. 资源链接</h2><p>&emsp;&emsp;本次资源包含以下文件：  </p>
 <blockquote>
