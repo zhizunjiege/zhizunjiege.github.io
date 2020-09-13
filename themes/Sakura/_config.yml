@@ -11,24 +11,26 @@ pjax: 1
 # 1开启
 mathjax: 0
 
-notice: 个人博客站点，不定期更新~~~
+notice: 个人博客站点，不定期更新，左下角有音乐播放器，边听歌边看吧~~~
 lazyloadImg: https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg
 
 menus:
   首页: { path: /, fa: fa-fort-awesome faa-shake }
   归档: { path: /archives/, fa: fa-archive faa-shake }
-  分类: { path: javascript:;, fa: fa-archive faa-shake, submenus: { 
-    技术: {path: /categories/技术/, fa: fa-code }
-    # 资源: {path: /categories/资源/, fa: fa-cloud-download }, 
+  分类: { path: javascript:;, fa: fa-list-ul faa-shake, submenus: { 
+    技术: {path: /categories/技术/, fa: fa-code },
+    资源: {path: /categories/资源/, fa: fa-cloud-download } 
     # 转载: {path: /categories/转载/, fa: fa-book },
     # 生活: {path: /categories/生活/, fa: fa-file-text-o }, 
     # 随想: {path: /categories/随想/, fa: fa-commenting-o }
   } }
-  # 标签: { path: javascript:;, fa: fa-list-ul faa-vertical, submenus: { 
-  #   书籍: {path: /tags/书籍/, fa: fa-th-list faa-bounce },
-  #   音乐: {path: /tags/音乐/, fa: fa-headphones },
-  #   图片: {path: /tags/图片/, fa: fa-photo }
-  # } }
+  标签: { path: javascript:;, fa: fa-tags faa-vertical, submenus: { 
+    # 书籍: {path: /tags/书籍/, fa: fa-th-list faa-bounce },
+    # 音乐: {path: /tags/音乐/, fa: fa-headphones },
+    # 图片: {path: /tags/图片/, fa: fa-photo }
+    软件: {path: /tags/软件/, fa: fa-linux },
+    记录: {path: /tags/记录/, fa: fa-pencil-square-o }
+  } }
   追番: {path: /bangumi/, fa: fa-film faa-vertical }
   # 留言: { path: /comment/, fa: fa-pencil-square-o faa-tada }
   友链: { path: /links/, fa: fa-link faa-shake }
@@ -102,7 +104,7 @@ movies:
   name: 
 
 aplayer: 
-  id: 486899256
+  id: 5065571633
   server: netease
   type: playlist
   fixed: true
@@ -110,7 +112,7 @@ aplayer:
   loop: all
   order: random
   preload: auto
-  volume: 0.7
+  volume: 0.4
   mutex: true
 
 # Valine

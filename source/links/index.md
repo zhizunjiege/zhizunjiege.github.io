@@ -1,6 +1,6 @@
 ---
 layout: links
-title: links
+title: 友链
 # 创建日期，可以改下
 # date: 2018-12-19 23:11:06 
 # 图片上的标题，自定义修改

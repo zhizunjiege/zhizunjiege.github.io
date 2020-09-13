@@ -1,7 +1,8 @@
 ---
 title: Hello world，这是新的开始
 categories: 技术
-photos: /img/post/hello-world/cover.webp
+tags: 记录
+photos: /img/post/cover.webp
 ---
 
 &emsp;&emsp;经过两天断断续续的折腾，我的个人博客站点终于搭建完毕了！！！  
