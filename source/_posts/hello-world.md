@@ -2,10 +2,12 @@
 title: Hello world，这是新的开始
 categories: 技术
 tags: 记录
-photos: /img/post/cover.webp
+abbrlink: d9d8a069
 ---
 
-&emsp;&emsp;经过两天断断续续的折腾，我的个人博客站点终于搭建完毕了！！！  
+&emsp;&emsp;经过两天断断续续的折腾，我的个人博客站点终于搭建完毕了！！！
+
+<!-- more -->
 
 &emsp;&emsp;这次采用的资源与技术是Github Pages和Hexo，搭建过程还算简单，其实这个站点的本质就是一个repo（仓库），存储了一些html、css、js和图片等静态内容，当你访问这个网址的时候，github会将对应的内容推送给你，所以其实是抱github的大腿啦~~~  
 

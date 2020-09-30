@@ -1,0 +1,217 @@
+mode: auto
+
+# 头像
+avatar:
+  url: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/avatar.jpg
+  status:
+    enable: true
+    emoji: 😁
+    message: 
+
+# 色彩
+colors:
+  # bg: "#54B9FF"
+  dark:
+    block: "#041322b3"
+
+post_card:
+  opacity: 0.7
+
+tags:
+  记录: "#2577b1"
+  软件: "#d04d2d"
+
+  随笔: mediumpurple
+  教程: royalblue
+  动画: crimson
+  漫画: orange
+  MAD: crimson
+  学习: saddlebrown
+  笔记: dimgray
+  分享: "#0078e7"
+  中传: "#ccb44b"
+  部落: "#DD306A"
+  科幻: midnightblue
+
+categories:
+  技术: "#21374b"
+  资源: "#FB7299"
+
+# 主页面
+banner:
+  enable: true
+  title: 
+    - J
+    - a
+    - s
+    - o
+    - n
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+say:
+  enable: true
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+# 背景
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/bg/bg-blur50px.jpg
+  dark: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/bg/bg-dark.jpg
+  opacity: 0.8
+
+search:
+  bg_image: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/bg/bg-blur50px.jpg
+  dark_bg_image: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/bg/bg-dark-blur35px.jpg
+  placeholder: 想要搜些什么？
+
+# 侧边栏
+menu:
+  custom:
+    title: 还没想好
+    path: /
+    icon: icon-clipboard-line
+
+pages:
+  - name: 友链
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+#   - name: 喜欢的女孩子
+#     url: /girls/
+#     icon: icon-women-line
+#     color: hotpink
+
+# 打赏
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 我很可爱，请给我钱。
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/donate/AliPayQR.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/donate/WeChatQR.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+# 页脚
+footer:
+  since: 2020
+  live_time:
+    enable: true
+    prefix: 本博客已运行
+    suffix: 
+    start_time: "2020-06-14T00:00:00"
+
+# 杂项
+wordcloud:
+  enable: true
+
+cursor:
+  enable: true
+
+archive:
+  last_word: 作者有点懒，只写了这些文章
+
+codeblock:
+  copy_btn: true
+
+
+# 社交
+social:
+  - name: RSS
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/zhizunjiege
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/22867237
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: E-Mail
+    link: mailto:2976409942@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 微信公众号
+    link: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/social/wechat-official.jpg
+    icon: icon-wechat-2-line
+    color: "#1AAD19"
+  - name: 知乎
+    link: https://www.zhihu.com/people/jason-76-55
+    icon: icon-zhihu-line
+    color: "#0084FF"
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=553291867
+    icon: icon-netease-cloud-music-line
+    color: "#C20C0C"
+  - name: Travelling
+    link: https://travellings.now.sh/
+    icon: icon-send-plane-2-line
+    color: black
+
+
+# 评论系统
+comment:
+  tips:
+    - 正在使用 utterances （基于 GitHub Issues）评论系统。
+
+github_issues:
+  enable: false
+
+utterances:
+  enable: true
+  repo: zhizunjiege/zhizunjiege.github.io
+  issue-term: title
+  label: comment
+  theme: preferred-color-scheme
+
+# 页面统计，搜索，seo
+wordcount:
+  enable: true
+    
+busuanzi:
+  enable: true
+
+algolia_search:
+  enable: true
+
+# local_search:
+#   enable: true
+
+baidu_push: true
+
+# 编辑链接?不懂...
+post_edit:
+  enable: true
+  url: https://github.com/zhizunjiege/zhizunjiege.github.io/tree/dev/source/
+
+# 播放器
+aplayer: 
+  global: true
+  volume: 0.4
+  widget:
+    enable: true
+    meting:
+      id: 5065571633
+      server: netease
+      type: playlist
+
+# albums:
+#   enable: true
+
+# girls:
+#   enable: true
+

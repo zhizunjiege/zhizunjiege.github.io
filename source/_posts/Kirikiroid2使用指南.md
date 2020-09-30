@@ -2,36 +2,25 @@
 title: Kirikiroid2使用指南
 categories: 资源
 tags: 软件
-keywords: kirikiroid2,永不枯萎的世界与终焉之花,枯れない世界と終わる花
-photos: http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg
+keywords: 'kirikiroid2,永不枯萎的世界与终焉之花,枯れない世界と終わる花'
+abbrlink: 43f77427
 ---
 
-<!-- # 目录
+&emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。  
+&emsp;&emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇[日文教程][1]，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  
+### **注意**
+&emsp;&emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  
 
-> [前言](#前言)  
-> [1.安装软件](#1-安装软件)    
-> [2.准备补丁](#2-准备补丁)  
-> [3.下载游戏](#3-下载游戏)     
-> [4.运行游戏](#4-运行游戏)  
-> [后记](#后记) -->
+<!-- more -->
 
-## 前言
-
-> &emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。  
-> &emsp;&emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇[日文教程][1]，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  
-> ### **注意**
-> &emsp;&emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  
-
----
-
-## 1. 安装软件
+## 安装软件
 
 &emsp;&emsp;可以去Kirikiroid2的[github仓库][2]页面下载最新版的安装包，但网速一般很慢，结合这个[github下载加速网站][3]速度稍微快点，使用方法一看就懂。或者从我分享的[蓝奏云链接][4]来下载，密码：87pb。当然，你也可以去Google Play付费购买，安卓系统的叫Kirikiroid2，IOS的叫Xp3player。   
 &emsp;&emsp;推荐蓝奏云下载，速度很快。
 
 ---
 
-## 2. 准备补丁
+## 准备补丁
 
 &emsp;&emsp;由于游戏文件进行了一定加密，很多游戏如果没有补丁就无法运行，当然也有些游戏无需补丁就可以启动，但我还是建议去以下网站搜索一下有没有对应的补丁  
  
@@ -45,7 +34,7 @@ photos: http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg
 
 ---
 
-## 3. 下载游戏
+## 下载游戏
 
 &emsp;&emsp;找到你想要玩的游戏并下载，将之前下载好的补丁里的文件全部放到游戏文件夹下，以「枯れない世界と終わる花」为例，其文件夹结构如下图所示  
 ![图片2][8]  
@@ -53,7 +42,7 @@ photos: http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg
 
 ---
 
-## 4. 运行游戏
+## 运行游戏
 
 &emsp;&emsp;将整个游戏文件夹复制到手机内存中，打开Kirikiroid2，利用软件内的文件管理器找到游戏文件夹，点击文件夹下的data.xp3。初次运行时会出现一个操作介绍页面，点击右上角的“X”关闭即可，等待一会儿，脚本执行完毕，游戏就可以成功运行。  
 ![图片3][9]  
@@ -72,6 +61,6 @@ photos: http://sweet.clearrave.co.jp/karehana/img/top/main_img.jpg
 [4]: https://wws.lanzous.com/b01hgaaaf "密码：87pb"
 [5]: https://zeas2.github.io/Kirikiroid2_patch/patch/ "Kirikiroid2项目作者个人博客"
 [6]: http://avgfun.net/viewforum.php?f=4&sid=c0406ca29618c05c53c262823d3a115e "未验证"
-[7]: /img/post/kirikiroid2/1.webp
-[8]: /img/post/kirikiroid2/2.webp
-[9]: /img/post/kirikiroid2/3.webp
+[7]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/1.png
+[8]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/2.png
+[9]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/3.png

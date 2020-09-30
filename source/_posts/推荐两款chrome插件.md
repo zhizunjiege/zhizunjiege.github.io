@@ -2,13 +2,13 @@
 title: 推荐两款chrome插件
 categories: 资源
 tags: 软件
-keywords: chrome,插件,markdown,gitzip
-photos: http://img0.pconline.com.cn/pconline/1708/01/9692484_2_thumb.jpg
+keywords: 'chrome,插件,markdown,gitzip'
+abbrlink: a82482e7
 ---
 
-# 正文
-
 &emsp;&emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。
+
+<!-- more -->
 
 ## *Markdown Here*
 
@@ -46,7 +46,7 @@ photos: http://img0.pconline.com.cn/pconline/1708/01/9692484_2_thumb.jpg
 
 ---
 
-[1]: /img/post/chrome-extensions/markdown-here.gif
-[2]: /img/post/chrome-extensions/gitzip.gif
+[1]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/chrome-extensions/markdown-here.gif
+[2]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/chrome-extensions/gitzip.gif
 [3]: https://chrome.google.com/webstore/category/extensions?hl=zh-CN "Chrome网上应用店"
 [4]: https://crxdown.com/ "chrome插件下载代理"

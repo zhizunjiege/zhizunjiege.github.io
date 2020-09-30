@@ -3,23 +3,36 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jasonの个人博客
-subtitle:
+title: Jason的个人博客
+subtitle: 星空浩渺，我如尘埃。
 description: 个人博客站点，不定期分享技术文章或心灵感悟。
-keywords: 技术,前端,分享
+keywords: 
+  - 技术
+  - 前端
+  - 分享
 author: Jason
-language: zh-cn
-timezone: ""
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://zhizunjiege.github.io
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+# permalink: :year/:month/:day/:title/
+# permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32 #support crc16(default) and crc32
+  rep: hex #support dec(default) and hex
+  drafts: false #(true)Process draft,(false)Do not process draft
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false #默认为 true， 手改改为 false
+    depth:
 
 # Directory
 source_dir: source
@@ -44,13 +57,23 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+# highlight:
+#   enable: true
+#   line_number: true
+#   auto_detect: false
+#   tab_replace: ""
+#   wrap: true
+#   hljs: false
+
+# 关闭 highlight
 highlight:
+  enable: false
+# 启用 prism
+prismjs:
   enable: true
-  line_number: true
-  auto_detect: false
+  preprocess: true
+  line_number: false
   tab_replace: ""
-  wrap: true
-  hljs: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -77,7 +100,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: false
+# use_date_for_updated: false
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -93,10 +116,41 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: sakura # landscape
+theme: yun
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/zhizunjiege/zhizunjiege.github.io.git
+
+
+
+# 第三方插件
+
+
+algolia:
+  applicationID: "5I2F25FHKM"
+  apiKey: "1219803494b2c66f51ff5648fee02d32"
+  indexName: "blog-prod"
+  chunkSize: 5000
+
+aplayer:
+  cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+  style_cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+  meting: true
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js
+  asset_inject: false
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -updated
+  icon: favicon.png
+  autodiscovery: true
+  template:

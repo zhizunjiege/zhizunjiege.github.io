@@ -1,7 +1,5 @@
 ---
-layout: about
-title: 关于
-photos: /img/post/cover.webp
+title: 关于我
 ---
 
 &emsp;&emsp;可以简单地叫我Jason。  
