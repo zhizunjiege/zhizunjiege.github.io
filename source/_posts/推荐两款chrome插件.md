@@ -41,9 +41,14 @@ abbrlink: a82482e7
 &emsp;&emsp;安装完成后最好刷新页面，使插件生效。  
 &emsp;&emsp;本次推荐的插件ID分别为：  
 
-1. Markdown Here：*mdaelejdhngebimjjipllddfaahcgdck*
-2. GitZip：*eifidbmjijlblfejfeicoidahoidecoe*
-
+1. Markdown Here：
+```
+mdaelejdhngebimjjipllddfaahcgdck
+```
+2. GitZip：
+```
+eifidbmjijlblfejfeicoidahoidecoe
+```
 ---
 
 [1]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/chrome-extensions/markdown-here.gif

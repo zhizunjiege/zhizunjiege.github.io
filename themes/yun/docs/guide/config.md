@@ -570,14 +570,15 @@ notice:
 - `light`: 始终为亮色模式，不打包暗色样式资源
 - `dark`: 始终为暗色模式
 - `auto`: 根据系统亮暗模式自动切换，侧边栏将显示亮暗切换按钮，可自由切换。
+- `time`: 根据时间切换亮暗模式，`07:00-19:00` 为亮模式，剩余时间为暗模式
 
 > 暗色模式下纯黑图标，将变为白色。
 
 你可以为暗色模式，设置独立的背景和搜索背景，参见对应配置项。
 
 ```yaml
+# 可选 light | dark | auto | time
 mode: auto
-# 可选 light | dark | auto
 ```
 
 ### 字体
@@ -654,11 +655,13 @@ bg_image:
 
 #### 搜索背景
 
+- `modal`: 启用模态框时，搜索背景将为模糊后的下层内容，不再使用背景图片
 - `placeholder`: 搜索框提示文字（如果不设置，将自动根据 Hexo 语言配置选取对应的文本）
 - `dark_bg_image`：暗色模式下的背景，仅在你开启暗色模式时有效
 
 ```yaml
 search:
+  modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
   dark_bg_image: xxx
   # placeholder:
@@ -1089,8 +1092,16 @@ prismjs:
 
 在 `yun.yml` 中：
 
+- `copy_btn`: 开启一键复制按钮
+- `prismjs`
+  - `light`: 亮模式下，代码高亮主题
+  - `dark`: 暗模式下，代码高亮主题
+
+（可以为亮暗模式分别设置对应适合的高亮样式。）
+
 ```yaml
 codeblock:
+  copy_btn: true
   prismjs:
     light: default
     dark: tomorrow

@@ -209,6 +209,9 @@ aplayer:
       server: netease
       type: playlist
 
+pjax:
+  enable: true
+
 # albums:
 #   enable: true
 

@@ -54,24 +54,24 @@ abbrlink: 843d387b
 
 ![配置完成][12]  
 
-> #### **注意**
-> &emsp;&emsp;如果配置失败，并且具有“opencv_ffmpeg.dll下载失败”之类的报错信息，请将[资源链接](#4-资源链接)中下载的ffmpeg文件夹中内容复制到源代码目录下.cache/ffmpeg文件夹中，如下图所示：  
-> 
-> ![ffmpeg][13]  
-> 
+#### **注意**
+&emsp;&emsp;如果配置失败，并且具有“opencv_ffmpeg.dll下载失败”之类的报错信息，请将[资源链接](#4-资源链接)中下载的ffmpeg文件夹中内容复制到源代码目录下.cache/ffmpeg文件夹中，如下图所示：  
+
+![ffmpeg][13]  
+
 
 &emsp;&emsp;配置成功后，可以看到cmake界面上出现很多配置项。这些配置可以按需修改，前提是你得理解这些配置代表什么含义。我只能模糊地理解其中一部分，在此就不解释了。下面是我所用的配置，追求编译速度尽量快而且功能够用即可。想修改的话请自行查阅其他资料，一个原则是：对不确定的配置项不做改动，沿用默认值即可。  
 
 &emsp;&emsp;需要取消勾选的项是： 
 
-> 1. BUILD_JAVA
-> 2. BUILD_PERF_TESTS
-> 3. BUILD_TESTS
+1. BUILD_JAVA
+2. BUILD_PERF_TESTS
+3. BUILD_TESTS
 
 &emsp;&emsp;需要勾选的项是：
 
-> 1. BUILD_opencv_world
-> 2. WITH_OPENGL
+1. BUILD_opencv_world
+2. WITH_OPENGL
 
 &emsp;&emsp;配置完后再次点击“Configure”，直到页面由红变白，然后点击“Generate”。  
 
@@ -83,19 +83,19 @@ mingw32-make -j 8
 
 &emsp;&emsp;其中 `-j` 是控制编译所用线程数的参数，这可以根据电脑性能来决定，电脑不好的话可以改成4线程。等待编译完成，这需要花费一定时间。
 
-> #### **注意**
-> &emsp;&emsp;如果编译失败，且报错信息如下图所示，则手动执行命令  
-> 
-> ```shell
-> cd modules/world
-> windres vs_version.rc -O coff CMakeFiles\opencv_world.dir\vs_version.rc.obj
-> mingw32-make -j 8
-> ```
-> 
-> &emsp;&emsp;结果见下图：  
-> 
->   ![编译报错][14]   
-> 
+#### **注意**
+&emsp;&emsp;如果编译失败，且报错信息如下图所示，则手动执行命令  
+
+```shell
+cd modules/world
+windres vs_version.rc -O coff CMakeFiles\opencv_world.dir\vs_version.rc.obj
+mingw32-make -j 8
+```
+
+&emsp;&emsp;结果见下图：  
+
+  ![编译报错][14]   
+
 
 ### 安装
 
@@ -107,9 +107,9 @@ mingw32-make install
 
 &emsp;&emsp;等待安装完成。在这次安装过程中，我发现少安装了几个文件，需要手动复制过去。这些文件如下：
 
-> 1. opencv4.4.0/include/opencv2/opencv2.hpp
-> 2. build/opencv2/cvconfig.h
-> 3. build/opencv2/opencv_modules.hpp
+1. opencv4.4.0/include/opencv2/opencv2.hpp
+2. build/opencv2/cvconfig.h
+3. build/opencv2/opencv_modules.hpp
 
 &emsp;&emsp;将这些文件全部复制到 `build/install/include/opencv2` 文件夹下即可，install文件夹下就是我们需要的所有文件。值得一提的是，我以前编译opencv4.2.0源码时没有出现过这个问题，我只能猜想是新版本的安装脚本发生了某些变动，也或者是我的配置有误，你要有空，可以试试不改配置直接生成makefile并编译。我会将opencv4.2.0编译后的库文件也上传到蓝奏云中，两个版本随你选择。
 
@@ -119,13 +119,15 @@ mingw32-make install
 
 &emsp;&emsp;为了调试方便，首先将 install 文件夹下的 x64/mingw/bin 文件夹添加到系统环境变量，例如我电脑上的路径为：   
 
-> H:\Code\c++\opencv\build\install\x64\mingw\bin
+```
+H:\Code\c++\opencv\build\install\x64\mingw\bin
+```
 
 &emsp;&emsp;打开VS Code，配置好.vscode文件夹下的三个文件：  
 
-> 1. c_cpp_properties.json  
-> 2. launch.json  
-> 3. tasks.json  
+1. c_cpp_properties.json  
+2. launch.json  
+3. tasks.json  
 
 &emsp;&emsp;写一段示例程序并找一张图片用来测试，执行 Ctrl+Shift+B 编译程序，再执行 Ctrl+Shift+T 运行程序，如果没有错误，你将看到图片显示在窗口中。
 
@@ -137,14 +139,14 @@ mingw32-make install
 
 &emsp;&emsp;本次资源包含以下文件：  
 
-> 1. opencv4.4.0 源代码
-> 2. mingw-w64 编译器
-> 3. cmake 程序（蓝奏云不支持msi格式，所以进行了压缩，需要解压）
-> 4. 第三方库 ffmpeg 文件（cmake配置报错时使用）
-> 5. opencv4.4.0 与 opencv4.2.0 编译完成后的库文件（懒人福音^_^）
-> 6. vscode用于c++的3个配置文件（需按自己实际情况进行改动）
-> 7. 测试程序源文件
-> 8. 一个自主编写的makefile文件，用于opencv学习过程中小项目的编译~
+1. opencv4.4.0 源代码
+2. mingw-w64 编译器
+3. cmake 程序（蓝奏云不支持msi格式，所以进行了压缩，需要解压）
+4. 第三方库 ffmpeg 文件（cmake配置报错时使用）
+5. opencv4.4.0 与 opencv4.2.0 编译完成后的库文件（懒人福音^_^）
+6. vscode用于c++的3个配置文件（需按自己实际情况进行改动）
+7. 测试程序源文件
+8. 一个自主编写的makefile文件，用于opencv学习过程中小项目的编译~
 
 &emsp;&emsp;[资源链接][16]在这里，密码是3pi9。
 
@@ -161,8 +163,8 @@ mingw32-make install
 
 ## 后记
 
-> &emsp;&emsp;此次编译最大的问题是安装4.4.0库文件时缺少了几个文件，我依稀记得编译4.2.0时好像没出这种幺蛾子，于是用相同的配置把4.2.0也编译了一遍，结果证明不是我的操作与配置问题ヽ(✿ﾟ▽ﾟ)ノ  
-> &emsp;&emsp;写作这篇文章时，我力求清晰与详尽，所以可能显得有点啰嗦，还请见谅！
+&emsp;&emsp;此次编译最大的问题是安装4.4.0库文件时缺少了几个文件，我依稀记得编译4.2.0时好像没出这种幺蛾子，于是用相同的配置把4.2.0也编译了一遍，结果证明不是我的操作与配置问题ヽ(✿ﾟ▽ﾟ)ノ  
+&emsp;&emsp;写作这篇文章时，我力求清晰与详尽，所以可能显得有点啰嗦，还请见谅！
 
 ---
 
@@ -175,7 +177,7 @@ mingw32-make install
 [7]: https://img-blog.csdnimg.cn/20191231184353673.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2ppcWlyZW5fZGFzaGVuZw==,size_16,color_FFFFFF,t_70 "第二步"
 [8]: https://cmake.org/download/ "cmake官网下载链接"
 [9]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/opencv4/选择源代码.png "选择源代码"
-[10]: https://img2020.cnblogs.com/blog/772331/202005/772331-20200520002613565-1182638410.png "选择makefile配置"
+[10]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/opencv4/选择makefile.png "选择makefile配置"
 [11]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/opencv4/选择编译器.png "选择编译器"
 [12]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/opencv4/配置完成.png "配置完成"
 [13]: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/opencv4/ffmpeg.png "ffmpeg"

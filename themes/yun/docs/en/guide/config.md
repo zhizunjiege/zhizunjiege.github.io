@@ -561,13 +561,14 @@ notice:
 - `light`: always light mode without dark style assets
 - `dark`: always dark mode
 - `auto`: switch mode by system mode, display toggle button in sidebar
+- `time`: switch light and dark mode by time, `07:00-19:00` is light mode, and the remaining time is dark mode
 
 > Black icon will be white in dark mode.
 
 You can set isolate background for dark mode, please see corresponding config.
 
 ```yaml
-# light | dark | auto
+# light | dark | auto | time
 mode: auto
 ```
 
@@ -647,11 +648,13 @@ bg_image:
 
 #### Search Background
 
+- `modal` If you enable `modal`, the search background will be the blurred underlying content, and the background image will no longer be used.
 - `placeholder`: search box prompt text (if not set, the corresponding text will be automatically selected according to Hexo language configuration)
 - `dark_bg_image`: background for dark mode
 
 ```yaml
 search:
+  modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
   dark_bg_image: xxx
   # placeholder:
@@ -1078,8 +1081,16 @@ prismjs:
 
 In `yun.yml`:
 
+- `copy_btn`: enable copy button in codeblock
+- `prismjs`
+  - `light`: code highlight style for light
+  - `dark`: code highlight style for dark
+
+(You can set the corresponding suitable highlight styles for the light and dark modes.)
+
 ```yaml
 codeblock:
+  copy_btn: true
   prismjs:
     light: default
     dark: tomorrow

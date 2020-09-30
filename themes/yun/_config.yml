@@ -1,6 +1,6 @@
 # ---------------
-# mode: light | dark | auto
-mode: light
+# mode: light | dark | auto | time
+mode: auto
 
 # Theme color for customize
 # Notice: color value must in double quotes: "#000000"
@@ -108,6 +108,7 @@ social:
     color: black
 
 codeblock:
+  copy_btn: true
   prismjs:
     light: default
     dark: tomorrow
@@ -288,7 +289,7 @@ cdn:
   js:
     base:
     async:
-      iconfont: //at.alicdn.com/t/font_1140697_stqaphw3j4.js
+      iconfont: //at.alicdn.com/t/font_1140697_ed8vp4atwoj.js
     defer:
 
 # cdn for third-party library (alternative include)
@@ -492,6 +493,9 @@ comment:
   tips:
     - 点击按钮跳转 GitHub Issues 评论。
     - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  # candidates:
+  #   - valine
+  #   - utterances
 
 # GitHub Issues Link Button
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
@@ -616,6 +620,7 @@ wordcount:
 
 # search
 search:
+  modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain-blur-30px.jpg
   # placeholder: 想要搜些什么？
