@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jason的个人博客</title>
+  <icon>https://zhizunjiege.github.io/favicon.png</icon>
+  <subtitle>星空浩渺，我如尘埃。</subtitle>
+  <link href="https://zhizunjiege.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhizunjiege.github.io/"/>
+  <updated>2020-09-30T06:53:20.555Z</updated>
+  <id>https://zhizunjiege.github.io/</id>
+  
+  <author>
+    <name>Jason</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>用于mingw-w64的opencv4编译指南及资源</title>
+    <link href="https://zhizunjiege.github.io/posts/843d387b/"/>
+    <id>https://zhizunjiege.github.io/posts/843d387b/</id>
+    <published>2020-09-12T13:48:47.991Z</published>
+    <updated>2020-09-30T06:53:20.555Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;当我开始学习opencv的时候，发现官方只提供了用于vc、android和ios的库文件，而我所用的c++开发环境是VS Code编辑器与mingw-w64编译器，缺少库文件使我很为难，所以最终决定通过源代码自行编译。经过将近三个小时，我成功了。事后总结，我发现编译源代码其实并不难，难在自己初次尝试时保持足够的耐心去解决一些奇奇怪怪的bug。第一次总是很辛苦，所以我写作这篇教程，希望能帮你少走弯路。   &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://zhizunjiege.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kirikiroid2使用指南</title>
+    <link href="https://zhizunjiege.github.io/posts/43f77427/"/>
+    <id>https://zhizunjiege.github.io/posts/43f77427/</id>
+    <published>2020-06-20T05:10:20.116Z</published>
+    <updated>2020-09-30T06:50:34.048Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。&lt;br&gt;&amp;emsp;&amp;emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇&lt;a href=&quot;https://www.marron.work/2017/03/95/&quot; title=&quot;(完全版？)Kirikiroid2とXP3Playerの使い方&quot;&gt;日文教程&lt;/a&gt;，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  &lt;/p&gt;
+&lt;h3 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="资源" scheme="https://zhizunjiege.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推荐两款chrome插件</title>
+    <link href="https://zhizunjiege.github.io/posts/a82482e7/"/>
+    <id>https://zhizunjiege.github.io/posts/a82482e7/</id>
+    <published>2020-06-24T13:55:05.653Z</published>
+    <updated>2020-09-30T06:49:56.326Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="资源" scheme="https://zhizunjiege.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello world，这是新的开始</title>
+    <link href="https://zhizunjiege.github.io/posts/d9d8a069/"/>
+    <id>https://zhizunjiege.github.io/posts/d9d8a069/</id>
+    <published>2020-06-14T02:48:42.026Z</published>
+    <updated>2020-09-29T16:18:36.980Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;经过两天断断续续的折腾，我的个人博客站点终于搭建完毕了！！！&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术" scheme="https://zhizunjiege.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="记录" scheme="https://zhizunjiege.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
