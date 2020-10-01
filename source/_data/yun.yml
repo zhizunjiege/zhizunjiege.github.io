@@ -20,16 +20,16 @@ post_card:
 tags:
   记录: "#2577b1"
   软件: "#d04d2d"
+  教程: royalblue
+  Galgame: crimson
+  脚本: "#ccb44b"
 
   随笔: mediumpurple
-  教程: royalblue
   动画: crimson
   漫画: orange
-  MAD: crimson
   学习: saddlebrown
   笔记: dimgray
   分享: "#0078e7"
-  中传: "#ccb44b"
   部落: "#DD306A"
   科幻: midnightblue
 
@@ -115,7 +115,7 @@ footer:
 
 # 杂项
 wordcloud:
-  enable: true
+  enable: false
 
 cursor:
   enable: true
@@ -201,9 +201,10 @@ post_edit:
 # 播放器
 aplayer: 
   global: true
-  volume: 0.4
+  asset_inject: false
   widget:
     enable: true
+    volume: 0.4
     meting:
       id: 5065571633
       server: netease

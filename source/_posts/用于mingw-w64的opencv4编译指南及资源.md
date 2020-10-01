@@ -1,7 +1,11 @@
 ---
 title: 用于mingw-w64的opencv4编译指南及资源
 categories: 技术
-tags: 软件
+tags: 
+  - 软件
+  - opencv
+  - 编译
+  - 教程
 keywords: 'mingw,mingw-w64,opencv,编译'
 abbrlink: 843d387b
 ---

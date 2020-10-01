@@ -1,7 +1,11 @@
 ---
 title: Kirikiroid2使用指南
 categories: 资源
-tags: 软件
+tags: 
+  - 软件
+  - 模拟器
+  - Galgame
+  - 教程
 keywords: 'kirikiroid2,永不枯萎的世界与终焉之花,枯れない世界と終わる花'
 abbrlink: 43f77427
 ---

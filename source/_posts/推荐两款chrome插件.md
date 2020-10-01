@@ -1,7 +1,10 @@
 ---
 title: 推荐两款chrome插件
 categories: 资源
-tags: 软件
+tags: 
+  - 软件
+  - 插件
+  - Chrome
 keywords: 'chrome,插件,markdown,gitzip'
 abbrlink: a82482e7
 ---
