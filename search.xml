@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>一键评教脚本</title>
+      <link href="posts/274d832d/"/>
+      <url>posts/274d832d/</url>
+      
+        <content type="html"><![CDATA[<p>一键评教脚本，仅适用于本校。<del>别给老师看见…</del>  </p><p>我知道早就已经有人写过了，不过我看那份代码有点过时了，稍微更新和优化了一下。  </p><p><del>其实主要还是自己写着玩</del>  </p><a id="more"></a><h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><ol><li>下载油猴或暴力猴等脚本管理器并安装和启用；</li><li>安装一件评教脚本；  </li><li>登陆教务页面，点击浏览器右上角的油猴或暴力猴图标；  </li><li>点击“一键评教脚本”下的“开始评教”，等待片刻即可。  </li></ol><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>只在Chrome测试过，其他浏览器兼容性不做保证，不过想来应该没什么问题。</p><p>脚本地址：<a href="https://greasyfork.org/zh-CN/scripts/412000-oneclicktoevaluate">https://greasyfork.org/zh-CN/scripts/412000-oneclicktoevaluate</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>用于mingw-w64的opencv4编译指南及资源</title>
       <link href="posts/843d387b/"/>
       <url>posts/843d387b/</url>
@@ -21,6 +48,12 @@
         <tags>
             
             <tag> 软件 </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> opencv </tag>
+            
+            <tag> 编译 </tag>
             
         </tags>
       
@@ -47,6 +80,10 @@
             
             <tag> 软件 </tag>
             
+            <tag> 插件 </tag>
+            
+            <tag> Chrome </tag>
+            
         </tags>
       
     </entry>
@@ -72,30 +109,11 @@
             
             <tag> 软件 </tag>
             
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello world，这是新的开始</title>
-      <link href="posts/d9d8a069/"/>
-      <url>posts/d9d8a069/</url>
-      
-        <content type="html"><![CDATA[<p>&emsp;&emsp;经过两天断断续续的折腾，我的个人博客站点终于搭建完毕了！！！</p><a id="more"></a><p>&emsp;&emsp;这次采用的资源与技术是Github Pages和Hexo，搭建过程还算简单，其实这个站点的本质就是一个repo（仓库），存储了一些html、css、js和图片等静态内容，当你访问这个网址的时候，github会将对应的内容推送给你，所以其实是抱github的大腿啦<del>~</del>  </p><p>&emsp;&emsp;而Hexo呢，作用是通过一定规则将编写的资源生成上述提到的静态内容（什么规则？我也不知道。。。）其中比较重要的就是这个theme（主题），它决定了页面具体的呈现方式（Hexo只决定了整体框架，具体内容需要theme来填充）。这个主题叫<a href="https://docs.hojun.cn/sakura/docs/#/" title="Sakura的官网">Sakura</a>，我是从github上找到的，看起来还比较漂亮吧，由于没有自己的服务器或cdn，我删减了很多部分，折腾两天，我也魔改了一下2333。作者是<a href="https://github.com/honjun" title="hojun的github">hojun</a>，感谢这个b……ilibili的Up🐖！但是不得不说ta这个文档写的……嗯……我这样的菜鸟看起来还是有些迷糊。 </p><p>&emsp;&emsp;详细的内容就不展开说了，有兴趣自己搭建这样一个静态博客的话，可以来联系我~</p><blockquote><p>PS：欢迎加微信来探♂讨知识</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
+            <tag> 模拟器 </tag>
             
-            <tag> 记录 </tag>
+            <tag> Galgame </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
