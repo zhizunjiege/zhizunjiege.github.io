@@ -6,7 +6,7 @@
   <link href="https://zhizunjiege.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhizunjiege.github.io/"/>
-  <updated>2020-10-01T15:21:37.305Z</updated>
+  <updated>2020-10-05T08:44:01.132Z</updated>
   <id>https://zhizunjiege.github.io/</id>
   
   <author>
@@ -17,48 +17,27 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>一键评教脚本</title>
-    <link href="https://zhizunjiege.github.io/posts/274d832d/"/>
-    <id>https://zhizunjiege.github.io/posts/274d832d/</id>
-    <published>2020-10-01T15:04:56.616Z</published>
-    <updated>2020-10-01T15:21:37.305Z</updated>
+    <title>那些令人惊艳的Hexo主题</title>
+    <link href="https://zhizunjiege.github.io/posts/b27510e7/"/>
+    <id>https://zhizunjiege.github.io/posts/b27510e7/</id>
+    <published>2020-10-04T10:57:59.290Z</published>
+    <updated>2020-10-05T08:44:01.132Z</updated>
     
     
-    <summary type="html">&lt;p&gt;一键评教脚本，仅适用于本校。&lt;del&gt;别给老师看见…&lt;/del&gt;  &lt;/p&gt;
-&lt;p&gt;我知道早就已经有人写过了，不过我看那份代码有点过时了，稍微更新和优化了一下。  &lt;/p&gt;
-&lt;p&gt;&lt;del&gt;其实主要还是自己写着玩&lt;/del&gt;  &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="资源" scheme="https://zhizunjiege.github.io/categories/%E8%B5%84%E6%BA%90/"/>
-    
-    
-    <category term="教程" scheme="https://zhizunjiege.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="脚本" scheme="https://zhizunjiege.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>推荐两款chrome插件</title>
-    <link href="https://zhizunjiege.github.io/posts/a82482e7/"/>
-    <id>https://zhizunjiege.github.io/posts/a82482e7/</id>
-    <published>2020-06-24T13:55:05.653Z</published>
-    <updated>2020-10-01T15:04:11.782Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;刚开始用Hexo做静态博客的时候，我使用了一个叫Sakura的主题，页面做的很精美，我觉得挺不错，心里挺开心🙂&lt;/p&gt;
+&lt;p&gt;直到用了一段时间，我发现有个难以忍受的缺点，那就是页面加载速度非常、非常、非常慢！慢到怀疑人生 …(⊙_⊙;)… &lt;/p&gt;
+&lt;p&gt;好吧好吧，换一个吧。&lt;del&gt;反正这个也用腻了&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;我在Hexo的官网找到了现有的主题列表，有三百多，一个个看过去，发现了很多令人惊艳的主题，心中暗叹“妙啊”，一番对比之后选择了Yun。&lt;/p&gt;
+&lt;p&gt;其他主题也是很棒滴！我觉得这些主题的设计都很有意思，故在此做一个记录。&lt;/p&gt;</summary>
     
     
     
-    <category term="资源" scheme="https://zhizunjiege.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    <category term="世间好物" scheme="https://zhizunjiege.github.io/categories/%E4%B8%96%E9%97%B4%E5%A5%BD%E7%89%A9/"/>
     
     
-    <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    <category term="资源" scheme="https://zhizunjiege.github.io/tags/%E8%B5%84%E6%BA%90/"/>
     
-    <category term="插件" scheme="https://zhizunjiege.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
-    
-    <category term="Chrome" scheme="https://zhizunjiege.github.io/tags/Chrome/"/>
+    <category term="分享" scheme="https://zhizunjiege.github.io/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
@@ -67,15 +46,14 @@
     <link href="https://zhizunjiege.github.io/posts/43f77427/"/>
     <id>https://zhizunjiege.github.io/posts/43f77427/</id>
     <published>2020-06-20T05:10:20.116Z</published>
-    <updated>2020-10-01T15:03:42.431Z</updated>
+    <updated>2020-10-04T11:24:29.206Z</updated>
     
     
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。&lt;br&gt;&amp;emsp;&amp;emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇&lt;a href=&quot;https://www.marron.work/2017/03/95/&quot; title=&quot;(完全版？)Kirikiroid2とXP3Playerの使い方&quot;&gt;日文教程&lt;/a&gt;，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  &lt;/p&gt;
-&lt;h3 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;&lt;strong&gt;注意&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  &lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。&lt;br&gt;&amp;emsp;&amp;emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇&lt;a href=&quot;https://www.marron.work/2017/03/95/&quot; title=&quot;(完全版？)Kirikiroid2とXP3Playerの使い方&quot;&gt;日文教程&lt;/a&gt;，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。    &lt;/p&gt;</summary>
     
     
     
-    <category term="资源" scheme="https://zhizunjiege.github.io/categories/%E8%B5%84%E6%BA%90/"/>
+    <category term="世间好物" scheme="https://zhizunjiege.github.io/categories/%E4%B8%96%E9%97%B4%E5%A5%BD%E7%89%A9/"/>
     
     
     <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
@@ -93,14 +71,14 @@
     <link href="https://zhizunjiege.github.io/posts/843d387b/"/>
     <id>https://zhizunjiege.github.io/posts/843d387b/</id>
     <published>2020-09-12T13:48:47.991Z</published>
-    <updated>2020-10-01T15:03:37.561Z</updated>
+    <updated>2020-10-04T11:23:21.815Z</updated>
     
     
     <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;当我开始学习opencv的时候，发现官方只提供了用于vc、android和ios的库文件，而我所用的c++开发环境是VS Code编辑器与mingw-w64编译器，缺少库文件使我很为难，所以最终决定通过源代码自行编译。经过将近三个小时，我成功了。事后总结，我发现编译源代码其实并不难，难在自己初次尝试时保持足够的耐心去解决一些奇奇怪怪的bug。第一次总是很辛苦，所以我写作这篇教程，希望能帮你少走弯路。   &lt;/p&gt;</summary>
     
     
     
-    <category term="技术" scheme="https://zhizunjiege.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    <category term="学习笔记" scheme="https://zhizunjiege.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
@@ -110,6 +88,52 @@
     <category term="opencv" scheme="https://zhizunjiege.github.io/tags/opencv/"/>
     
     <category term="编译" scheme="https://zhizunjiege.github.io/tags/%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一键评教脚本</title>
+    <link href="https://zhizunjiege.github.io/posts/274d832d/"/>
+    <id>https://zhizunjiege.github.io/posts/274d832d/</id>
+    <published>2020-10-01T15:04:56.616Z</published>
+    <updated>2020-10-04T11:23:13.488Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;一键评教脚本，仅适用于本校。&lt;del&gt;别给老师看见…&lt;/del&gt;  &lt;/p&gt;
+&lt;p&gt;我知道早就已经有人写过了，不过我看那份代码有点过时了，稍微更新和优化了一下。  &lt;/p&gt;
+&lt;p&gt;&lt;del&gt;其实主要还是自己写着玩&lt;/del&gt;  &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="自主开发" scheme="https://zhizunjiege.github.io/categories/%E8%87%AA%E4%B8%BB%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="教程" scheme="https://zhizunjiege.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="脚本" scheme="https://zhizunjiege.github.io/tags/%E8%84%9A%E6%9C%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推荐两款Chrome插件</title>
+    <link href="https://zhizunjiege.github.io/posts/a82482e7/"/>
+    <id>https://zhizunjiege.github.io/posts/a82482e7/</id>
+    <published>2020-06-24T13:55:05.653Z</published>
+    <updated>2020-10-04T11:22:56.051Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="世间好物" scheme="https://zhizunjiege.github.io/categories/%E4%B8%96%E9%97%B4%E5%A5%BD%E7%89%A9/"/>
+    
+    
+    <category term="软件" scheme="https://zhizunjiege.github.io/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="插件" scheme="https://zhizunjiege.github.io/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+    <category term="Chrome" scheme="https://zhizunjiege.github.io/tags/Chrome/"/>
     
   </entry>
   

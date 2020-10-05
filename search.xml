@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>那些令人惊艳的Hexo主题</title>
+      <link href="posts/b27510e7/"/>
+      <url>posts/b27510e7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>刚开始用Hexo做静态博客的时候，我使用了一个叫Sakura的主题，页面做的很精美，我觉得挺不错，心里挺开心🙂</p><p>直到用了一段时间，我发现有个难以忍受的缺点，那就是页面加载速度非常、非常、非常慢！慢到怀疑人生 …(⊙_⊙;)… </p><p>好吧好吧，换一个吧。<del>反正这个也用腻了</del></p><p>我在Hexo的官网找到了现有的主题列表，有三百多，一个个看过去，发现了很多令人惊艳的主题，心中暗叹“妙啊”，一番对比之后选择了Yun。</p><p>其他主题也是很棒滴！我觉得这些主题的设计都很有意思，故在此做一个记录。</p><a id="more"></a><h2 id="标准"><a href="#标准" class="headerlink" title="标准"></a>标准</h2><p>对于一个静态博客主题来说，究竟怎样算是“好”？在我看来，必须具备以下几点，这也是我记录这些主题的原因。</p><h3 id="轻量、快速"><a href="#轻量、快速" class="headerlink" title="轻量、快速"></a>轻量、快速</h3><p>个人博客不仅是自己写东西的地方，也是要给别人浏览的。当访客在浏览器中搜索到你的文章点进来，却需要等十几秒甚至几十秒才能完整加载和渲染页面，谁都得心态爆炸😑</p><h3 id="用户友好的UI"><a href="#用户友好的UI" class="headerlink" title="用户友好的UI"></a>用户友好的UI</h3><p>这个显然。一些反人类的UI设计只会让人大骂博主NT，并且反手就是一个关闭。</p><h3 id="个性化"><a href="#个性化" class="headerlink" title="个性化"></a>个性化</h3><p>个人博客嘛，自然要给人一种耳目一新的感觉。嗯，也要让自己看得顺眼。</p><h3 id="赏心悦目的UI"><a href="#赏心悦目的UI" class="headerlink" title="赏心悦目的UI"></a>赏心悦目的UI</h3><p>这个好像跟第二个重复了，其实不然。用户友好是说页面布局有逻辑，使用起来方便省心；赏心悦目则顾名思义，是说做的好看啦。这是个加分项，不会还有人不喜欢好看的UI吧，不会吧不会吧。</p><h2 id="Hexo主题"><a href="#Hexo主题" class="headerlink" title="Hexo主题"></a>Hexo主题</h2><h3 id="Yun–yunyoujun"><a href="#Yun–yunyoujun" class="headerlink" title="Yun–yunyoujun"></a><a href="https://www.yunyoujun.cn/">Yun–yunyoujun</a></h3><blockquote><p>A light &amp; fast &amp; cute theme for Hexo.</p></blockquote><p>本博客现在使用的便是这个主题。正如你所见，其功能齐全，轻量快速，UI养眼。如果你去原作者的站点看看，你还会发现确实很cute。</p><p>首屏是一个左右错落排列的名字，嗯…有那啥轻小说封面那味了。</p><p>为求更快、更轻，Yun全面地使用了CDN技术，简而言之，薅Github的🐑毛。除此之外，搜索、评论和数据统计等功能都使用了免费的第三方服务，此所谓『白嫖』。</p><p>Yun还有一个非常详尽的<a href="https://yun.yunyoujun.cn/">配置文档</a>。</p><p>我之前以为原来那个主题很卡是主题本身的原因，直到看了yunyoujun这文档我才知道我错怪了，原主题其实也可以配置CDN的……</p><p>yunyoujun，永远滴神！</p><h3 id="Shoka–Ruri-Shimotsuki"><a href="#Shoka–Ruri-Shimotsuki" class="headerlink" title="Shoka–Ruri Shimotsuki"></a><a href="https://shoka.lostyu.me/">Shoka–Ruri Shimotsuki</a></h3><blockquote><p>A simple hexo theme for YumeShoka.</p></blockquote><p>一个偏日系、梦幻精致的主题，一如博主的名字，『霜月 瑠璃』。<del>一看就是老二次元了</del></p><p>整体布局是很人性化的。右侧是sticky布局，主要用于站内与文章内的导航，左下角有音乐播放器和文章阅读进度的提示。</p><p>文章内的markdown样式很舒服，特别是代码块功能很齐全，好像是博主自己开发的markdown渲染器，我愿称之为最强。</p><p>另外，这个ふかふか的加载图，想rua~</p><h3 id="Nexmoe–折影轻梦"><a href="#Nexmoe–折影轻梦" class="headerlink" title="Nexmoe–折影轻梦"></a><a href="">Nexmoe–折影轻梦</a></h3><blockquote><p>A special Hexo theme.</p></blockquote><p>整体的UI和上面提到的Shoka差不多，配色稍微硬一点没有Shoka那么柔软。（<del>我怀疑Shoka作者是妹子</del>）</p><p>这个主题最突出的特点便是『大』图，文章封面图辣是真的大，可能适合一些自己玩摄影的人？(⊙_⊙;)…</p><p>总的来说做的还是挺好的。</p><h3 id="Freemind-bithack–AresX"><a href="#Freemind-bithack–AresX" class="headerlink" title="Freemind.bithack–AresX"></a><a href="https://ares-x.com/">Freemind.bithack–AresX</a></h3><blockquote><p>A dark , pixel art theme for Hexo.</p></blockquote><p>deep ♂ dark ♂ fantacy</p><p>打开站点，以为进入了控制台，说真的，有黑客那味了。</p><p>这UI显然不能用好不好看来评价，只能说，确实是极具风格。满屏的像素字体，适合怀旧。</p><h3 id="Love–青行三"><a href="#Love–青行三" class="headerlink" title="Love–青行三"></a><a href="https://blog.jiehua1995.xyz/">Love–青行三</a></h3><blockquote><p>A simple HEXO theme for couples.</p></blockquote><p>For couples…嗯，我看了好几遍。</p><p>另一个博客我也找出来了，<a href="https://blog.endureblaze.cn/">在这呢。</a></p><p>淦，这年头不仅有情侣空间，还有情侣博客吗，这个世界充斥着对单身狗的迫害，气抖冷，我们单身博主们什么时候才能站起来！</p><p>当然，抛开情侣博客的噱头不谈，博客本身的设计也是挺不错的。</p><p>谁知道是不是两个男生在用呢，害。<del>如果是两个女生，咳咳</del></p><h3 id="Starry–KitChen"><a href="#Starry–KitChen" class="headerlink" title="Starry–KitChen"></a><a href="https://meethigher.top/">Starry–KitChen</a></h3><blockquote><p>A responsive starry theme for Hexo.</p></blockquote><p>虽然名叫Starry，但其实就是背景里一些闪烁的小光点，感觉被骗了😶</p><p>不过UI做的还是可以的，嗯，怎么形容呢，有一种精细小巧的感觉，可能是这个字体导致的？</p><p>如果把背景换成缓缓旋转的星轨，我觉得就符合这个名字了。</p><h3 id="Replica–HiiTea"><a href="#Replica–HiiTea" class="headerlink" title="Replica–HiiTea"></a><a href="https://hiitea.io/tech/">Replica–HiiTea</a></h3><blockquote><p>A github style replication theme.</p></blockquote><p>一打开我还以为进了Github。</p><p>话不多说，自己看。</p><p>只能说这是绝活。</p><h3 id="Soul–CallMeSoul"><a href="#Soul–CallMeSoul" class="headerlink" title="Soul–CallMeSoul"></a><a href="https://callmesoul.cn/">Soul–CallMeSoul</a></h3><blockquote><p>An independently designed, dark-style theme.</p></blockquote><p>这个主题有两个令我意外的地方，一个是这种磨砂玻璃似的背景，很有质感；另一个是文章卡片的排列方式，是横排的。</p><p>我寻思，Hexo的300+主题里可能也就几个或者就这一个是这种风格。算是别出心裁，却又不至于使人感到突兀。</p><p>缺点就是很多卡片的封面图都加载不出来啊，博主你在干什么啊，博主。</p><h3 id="Technology–枫林晚"><a href="#Technology–枫林晚" class="headerlink" title="Technology–枫林晚"></a><a href="https://www.madelove.top/">Technology–枫林晚</a></h3><blockquote><p>A technology theme.</p></blockquote><p>这个主题并不能说做的好，之所以放在这里，是因为其首页图很Tech，就跟我以前想过的一个封面类似。除了这个，其他部分做的太简单了。</p><p>我其实还想过可以把首页做成一个，嗯，召唤法阵，或者炼金法阵。访客一进来，就跳出来一个妹子，说：</p><p>“你就是我的Master吗？”</p><p>那想必非常有趣。</p><h2 id="其他主题"><a href="#其他主题" class="headerlink" title="其他主题"></a>其他主题</h2><p>这些主题不是Hexo的，而是WordPress主题或者dalao自己构建的主题。总之很强就对了。</p><h3 id="Sakurairo–Hitomi"><a href="#Sakurairo–Hitomi" class="headerlink" title="Sakurairo–Hitomi"></a><a href="https://asuhe.jp/">Sakurairo–Hitomi</a></h3><blockquote><p>一个多彩，轻松上手，体验完善，具有强大自定义功能的WordPress主题。</p></blockquote><p>啊，这不就是我以前使用过的那个Sakura的升级版吗。</p><p>网站整体的UI，配色，特效，都是围绕着Sakura展开，可能比较适合软萌妹子吧。</p><h3 id="Aurora–蝉時雨"><a href="#Aurora–蝉時雨" class="headerlink" title="Aurora–蝉時雨"></a><a href="https://chanshiyu.com/#/">Aurora–蝉時雨</a></h3><blockquote><p>蝉鸣如雨，花宵道中</p></blockquote><p>太有feel了！</p><p>这是dalao自己采用Vue3.0构建的，很nice，相较于之前几款偏“二次元”的日系主题，这款感觉更古典，或者说二次元味儿没那么冲。</p><p>蝉时雨在日语里表示夏季蝉鸣起伏，犹如声浪落雨的意思。夏日，蝉鸣，燥热，唯独此处宁静。</p><p>好吧，不矫情了。从个人感情上来说，这一款才是我最喜欢的主题。</p><p>那为什么不用呢？</p><p>为什么呢？</p><p>因为</p><blockquote><p>美的东西就让它在那里保持美丽。</p></blockquote><p><del>我会跟你说是因为我太菜了很多地方不懂吗</del></p><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>这段时间学习了很多，写下这些文字。可能并不会有人愿意来看，所以仿佛成了我个人的呓语。但如果来过，不妨留下足迹。</p><p><img src="http://wx2.sinaimg.cn/large/006m97Kgly1fpc4wv5l72j30gs0iwtf2.jpg" alt="说人话" loading="lazy"></p><p>来个评论！</p><p>来个留言！</p><p>我很可爱，请给我钱！</p><p>秋梨膏！</p><p><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/emoji/kanna.gif" alt="滑稽" loading="lazy"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 世间好物 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资源 </tag>
+            
+            <tag> 分享 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一键评教脚本</title>
       <link href="posts/274d832d/"/>
       <url>posts/274d832d/</url>
@@ -13,7 +40,7 @@
       
       <categories>
           
-          <category> 资源 </category>
+          <category> 自主开发 </category>
           
       </categories>
       
@@ -40,7 +67,7 @@
       
       <categories>
           
-          <category> 技术 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
@@ -62,7 +89,7 @@
     
     
     <entry>
-      <title>推荐两款chrome插件</title>
+      <title>推荐两款Chrome插件</title>
       <link href="posts/a82482e7/"/>
       <url>posts/a82482e7/</url>
       
@@ -71,7 +98,7 @@
       
       <categories>
           
-          <category> 资源 </category>
+          <category> 世间好物 </category>
           
       </categories>
       
@@ -95,12 +122,12 @@
       <link href="posts/43f77427/"/>
       <url>posts/43f77427/</url>
       
-        <content type="html"><![CDATA[<p>&emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。<br>&emsp;&emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇<a href="https://www.marron.work/2017/03/95/" title="(完全版？)Kirikiroid2とXP3Playerの使い方">日文教程</a>，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。  </p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a><strong>注意</strong></h3><p>&emsp;&emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）  </p><a id="more"></a><h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>&emsp;&emsp;可以去Kirikiroid2的<a href="https://github.com/zeas2/Kirikiroid2/releases" title="下载">github仓库</a>页面下载最新版的安装包，但网速一般很慢，结合这个<a href="https://shrill-pond-3e81.hunsh.workers.dev/" title="文件下载加速">github下载加速网站</a>速度稍微快点，使用方法一看就懂。或者从我分享的<a href="https://wws.lanzous.com/b01hgaaaf" title="密码：87pb">蓝奏云链接</a>来下载，密码：87pb。当然，你也可以去Google Play付费购买，安卓系统的叫Kirikiroid2，IOS的叫Xp3player。<br>&emsp;&emsp;推荐蓝奏云下载，速度很快。</p><hr><h2 id="准备补丁"><a href="#准备补丁" class="headerlink" title="准备补丁"></a>准备补丁</h2><p>&emsp;&emsp;由于游戏文件进行了一定加密，很多游戏如果没有补丁就无法运行，当然也有些游戏无需补丁就可以启动，但我还是建议去以下网站搜索一下有没有对应的补丁  </p><blockquote><ol><li><a href="https://zeas2.github.io/Kirikiroid2_patch/patch/" title="Kirikiroid2项目作者个人博客">Patch List(GitHub.io)</a>  </li><li><a href="http://avgfun.net/viewforum.php?f=4&sid=c0406ca29618c05c53c262823d3a115e" title="未验证">AVGFun</a>  </li></ol></blockquote><p>&emsp;&emsp;以第一个网站为例，搜索「枯れない世界と終わる花」<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/1.png" alt="图片1" loading="lazy"><br>&emsp;&emsp;点击左边的GET即可下载补丁。<br>&emsp;&emsp;如果找到了对应的补丁，下载下来并解压。没找到的话也可以尝试接下来的步骤，但有一定概率失败。补丁一般包含一个xp3filter.tjs文件，此外还<strong>可能</strong>有一个krz_xp3conv.exe可执行文件。</p><hr><h2 id="下载游戏"><a href="#下载游戏" class="headerlink" title="下载游戏"></a>下载游戏</h2><p>&emsp;&emsp;找到你想要玩的游戏并下载，将之前下载好的补丁里的文件全部放到游戏文件夹下，以「枯れない世界と終わる花」为例，其文件夹结构如下图所示<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/2.png" alt="图片2" loading="lazy"><br>&emsp;&emsp;不同的游戏可能有不同的结构，但一般有xp3文件和plugin文件夹里的dll文件。如果之前的补丁里有krz_xp3conv.exe，双击运行它，等到控制台出现“按任意键继续……”的文字时，表示文件解密成功；没有该exe文件则直接进入下一步。  </p><hr><h2 id="运行游戏"><a href="#运行游戏" class="headerlink" title="运行游戏"></a>运行游戏</h2><p>&emsp;&emsp;将整个游戏文件夹复制到手机内存中，打开Kirikiroid2，利用软件内的文件管理器找到游戏文件夹，点击文件夹下的data.xp3。初次运行时会出现一个操作介绍页面，点击右上角的“X”关闭即可，等待一会儿，脚本执行完毕，游戏就可以成功运行。<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/3.png" alt="图片3" loading="lazy">  </p><hr><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><blockquote><p>&emsp;&emsp;赤西真論曾在他的教程最后说到，他在尝试运行「枯れない世界と終わる花」这款游戏时遭到了挫败，解密文件的时候出错，所以他选择了放弃，而我特意选择了这款游戏来做我的例子2333。我曾给他留言问询是否可以将他的教程翻译为中文，但最终也未能收到回复，现在都一年多了。</p></blockquote><hr>]]></content>
+        <content type="html"><![CDATA[<p>&emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。<br>&emsp;&emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇<a href="https://www.marron.work/2017/03/95/" title="(完全版？)Kirikiroid2とXP3Playerの使い方">日文教程</a>，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。    </p><a id="more"></a><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a><strong>注意</strong></h3><p>&emsp;&emsp;阅读指南前请先确认你想玩的游戏确实是使用Kirikiri2或KirikiriZ开发的，特点是游戏文件夹内有以xp3为后缀的文件。由于缺乏设备，本文所有步骤只在安卓系统上测试通过，IOS系统的步骤类似，请对照着进行，或者直接访问上面提到的赤西真論的教程。（你懂日文的话）</p><h2 id="安装软件"><a href="#安装软件" class="headerlink" title="安装软件"></a>安装软件</h2><p>&emsp;&emsp;可以去Kirikiroid2的<a href="https://github.com/zeas2/Kirikiroid2/releases" title="下载">github仓库</a>页面下载最新版的安装包，但网速一般很慢，结合这个<a href="https://shrill-pond-3e81.hunsh.workers.dev/" title="文件下载加速">github下载加速网站</a>速度稍微快点，使用方法一看就懂。或者从我分享的<a href="https://wws.lanzous.com/b01hgaaaf" title="密码：87pb">蓝奏云链接</a>来下载，密码：87pb。当然，你也可以去Google Play付费购买，安卓系统的叫Kirikiroid2，IOS的叫Xp3player。<br>&emsp;&emsp;推荐蓝奏云下载，速度很快。</p><hr><h2 id="准备补丁"><a href="#准备补丁" class="headerlink" title="准备补丁"></a>准备补丁</h2><p>&emsp;&emsp;由于游戏文件进行了一定加密，很多游戏如果没有补丁就无法运行，当然也有些游戏无需补丁就可以启动，但我还是建议去以下网站搜索一下有没有对应的补丁  </p><blockquote><ol><li><a href="https://zeas2.github.io/Kirikiroid2_patch/patch/" title="Kirikiroid2项目作者个人博客">Patch List(GitHub.io)</a>  </li><li><a href="http://avgfun.net/viewforum.php?f=4&sid=c0406ca29618c05c53c262823d3a115e" title="未验证">AVGFun</a>  </li></ol></blockquote><p>&emsp;&emsp;以第一个网站为例，搜索「枯れない世界と終わる花」<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/1.png" alt="图片1" loading="lazy"><br>&emsp;&emsp;点击左边的GET即可下载补丁。<br>&emsp;&emsp;如果找到了对应的补丁，下载下来并解压。没找到的话也可以尝试接下来的步骤，但有一定概率失败。补丁一般包含一个xp3filter.tjs文件，此外还<strong>可能</strong>有一个krz_xp3conv.exe可执行文件。</p><hr><h2 id="下载游戏"><a href="#下载游戏" class="headerlink" title="下载游戏"></a>下载游戏</h2><p>&emsp;&emsp;找到你想要玩的游戏并下载，将之前下载好的补丁里的文件全部放到游戏文件夹下，以「枯れない世界と終わる花」为例，其文件夹结构如下图所示<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/2.png" alt="图片2" loading="lazy"><br>&emsp;&emsp;不同的游戏可能有不同的结构，但一般有xp3文件和plugin文件夹里的dll文件。如果之前的补丁里有krz_xp3conv.exe，双击运行它，等到控制台出现“按任意键继续……”的文字时，表示文件解密成功；没有该exe文件则直接进入下一步。  </p><hr><h2 id="运行游戏"><a href="#运行游戏" class="headerlink" title="运行游戏"></a>运行游戏</h2><p>&emsp;&emsp;将整个游戏文件夹复制到手机内存中，打开Kirikiroid2，利用软件内的文件管理器找到游戏文件夹，点击文件夹下的data.xp3。初次运行时会出现一个操作介绍页面，点击右上角的“X”关闭即可，等待一会儿，脚本执行完毕，游戏就可以成功运行。<br><img src="https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/post/kirikiroid2/3.png" alt="图片3" loading="lazy">  </p><hr><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><blockquote><p>&emsp;&emsp;赤西真論曾在他的教程最后说到，他在尝试运行「枯れない世界と終わる花」这款游戏时遭到了挫败，解密文件的时候出错，所以他选择了放弃，而我特意选择了这款游戏来做我的例子2333。我曾给他留言问询是否可以将他的教程翻译为中文，但最终也未能收到回复，现在都一年多了。</p></blockquote><hr>]]></content>
       
       
       <categories>
           
-          <category> 资源 </category>
+          <category> 世间好物 </category>
           
       </categories>
       
