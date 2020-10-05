@@ -214,17 +214,10 @@ comment:
     # - 正在使用 utterances （基于 GitHub Issues）评论系统。
   candidates: 
     - Valine
-    - Utterances
+    - utterances
 
 github_issues:
   enable: false
-
-utterances:
-  enable: true
-  repo: zhizunjiege/zhizunjiege.github.io
-  issue-term: title
-  label: comment
-  theme: preferred-color-scheme
 
 valine:
   enable: true
@@ -290,3 +283,10 @@ valine:
     tv_鬼脸: 0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png
     tv_黑人问号: 45821a01f51bc867da9edbaa2e070410819a95b2.png
     tv_鼓掌: 1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png
+
+utterances:
+  enable: true
+  repo: zhizunjiege/zhizunjiege.github.io
+  issue-term: title
+  label: comment
+  theme: preferred-color-scheme
