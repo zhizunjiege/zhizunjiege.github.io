@@ -189,14 +189,12 @@ For couples...嗯，我看了好几遍。
 
 这段时间学习了很多，写下这些文字。可能并不会有人愿意来看，所以仿佛成了我个人的呓语。但如果来过，不妨留下足迹。
 
-![说人话](http://wx2.sinaimg.cn/large/006m97Kgly1fpc4wv5l72j30gs0iwtf2.jpg)
+~~说人话~~
 
 来个评论！
 
 来个留言！
 
 我很可爱，请给我钱！
-
-秋梨膏！
 
 ![滑稽](https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/emoji/kanna.gif)
