@@ -47,9 +47,9 @@
   }
 })
   
-</script></div><article class="post-block"><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div id="comment"><div class="comment-tooltip text-center"><span>正在使用 Valine （基于 Leancloud）评论系统，</span><br><span>您可以点击下方按钮切换对应评论系统。</span><br><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">Valine</a><style> {
+</script></div><article class="post-block"><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div id="comment"><div class="comment-tooltip text-center"><span>正在使用 Valine （基于 Leancloud）评论系统，</span><br><span>您可以点击下方按钮切换对应评论系统。</span><br><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">Valine</a><style>.utterances {
   display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">Utterances</a><script>function hideAllComment() {
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" data-target=".utterances" onclick="showComment(this.dataset.target)">utterances</a><script>function hideAllComment() {
   //- hide all
   document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
     const container = document.querySelector(btn.dataset.target);
