@@ -1,6 +1,6 @@
 ---
 title: 用于mingw-w64的opencv4编译指南及资源
-categories: 技术
+categories: 学习笔记
 tags: 
   - 软件
   - opencv

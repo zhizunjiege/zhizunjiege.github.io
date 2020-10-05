@@ -1,6 +1,6 @@
 ---
-title: 推荐两款chrome插件
-categories: 资源
+title: 推荐两款Chrome插件
+categories: 世间好物
 tags: 
   - 软件
   - 插件
