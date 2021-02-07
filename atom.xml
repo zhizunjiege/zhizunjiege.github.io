@@ -6,7 +6,7 @@
   <link href="https://blog.jason.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.jason.moe/"/>
-  <updated>2021-02-06T14:41:16.393Z</updated>
+  <updated>2021-02-07T02:11:50.487Z</updated>
   <id>https://blog.jason.moe/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <title>这半年</title>
     <link href="https://blog.jason.moe/posts/c95818db/"/>
     <id>https://blog.jason.moe/posts/c95818db/</id>
-    <published>2021-02-06T14:41:03.891Z</published>
-    <updated>2021-02-06T14:41:16.393Z</updated>
+    <published>2021-02-07T02:11:43.281Z</published>
+    <updated>2021-02-07T02:11:50.487Z</updated>
     
     
-    <summary type="html">&lt;div id=&quot;aplayer-KYRzJdoT&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
+    <summary type="html">&lt;div id=&quot;aplayer-vlBjSoVJ&quot; class=&quot;aplayer aplayer-tag-marker meting-tag-marker&quot;
          data-id=&quot;30245056&quot; data-server=&quot;netease&quot; data-type=&quot;song&quot; data-mode=&quot;circulation&quot; data-autoplay=&quot;false&quot; data-mutex=&quot;true&quot; data-listmaxheight=&quot;340px&quot; data-preload=&quot;auto&quot; data-theme=&quot;#ad7a86&quot; data-volume=&quot;0.8&quot;
     &gt;&lt;/div&gt;
 
@@ -37,9 +37,9 @@
     <category term="浮生小记" scheme="https://blog.jason.moe/categories/%E6%B5%AE%E7%94%9F%E5%B0%8F%E8%AE%B0/"/>
     
     
-    <category term="随笔" scheme="https://blog.jason.moe/tags/%E9%9A%8F%E7%AC%94/"/>
-    
     <category term="记录" scheme="https://blog.jason.moe/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="随笔" scheme="https://blog.jason.moe/tags/%E9%9A%8F%E7%AC%94/"/>
     
     <category term="心情" scheme="https://blog.jason.moe/tags/%E5%BF%83%E6%83%85/"/>
     
@@ -48,36 +48,11 @@
   </entry>
   
   <entry>
-    <title>Kirikiroid2使用指南</title>
-    <link href="https://blog.jason.moe/posts/43f77427/"/>
-    <id>https://blog.jason.moe/posts/43f77427/</id>
-    <published>2020-06-20T05:10:20.116Z</published>
-    <updated>2020-10-10T13:09:37.990Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。&lt;br&gt;&amp;emsp;&amp;emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇&lt;a href=&quot;https://www.marron.work/2017/03/95/&quot; title=&quot;(完全版？)Kirikiroid2とXP3Playerの使い方&quot;&gt;日文教程&lt;/a&gt;，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。    &lt;/p&gt;</summary>
-    
-    
-    
-    <category term="世间好物" scheme="https://blog.jason.moe/categories/%E4%B8%96%E9%97%B4%E5%A5%BD%E7%89%A9/"/>
-    
-    
-    <category term="软件" scheme="https://blog.jason.moe/tags/%E8%BD%AF%E4%BB%B6/"/>
-    
-    <category term="模拟器" scheme="https://blog.jason.moe/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
-    
-    <category term="Galgame" scheme="https://blog.jason.moe/tags/Galgame/"/>
-    
-    <category term="教程" scheme="https://blog.jason.moe/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title>那些令人惊艳的Hexo主题</title>
     <link href="https://blog.jason.moe/posts/b27510e7/"/>
     <id>https://blog.jason.moe/posts/b27510e7/</id>
-    <published>2020-10-04T10:57:59.290Z</published>
-    <updated>2020-10-05T15:32:08.078Z</updated>
+    <published>2021-02-07T01:58:08.677Z</published>
+    <updated>2021-02-07T01:58:08.678Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;刚开始用Hexo做静态博客的时候，我使用了一个叫Sakura的主题，页面做的很精美，我觉得挺不错，心里挺开心🙂&lt;/p&gt;
@@ -101,8 +76,8 @@
     <title>用于mingw-w64的opencv4编译指南及资源</title>
     <link href="https://blog.jason.moe/posts/843d387b/"/>
     <id>https://blog.jason.moe/posts/843d387b/</id>
-    <published>2020-09-12T13:48:47.991Z</published>
-    <updated>2020-10-04T11:23:21.815Z</updated>
+    <published>2021-02-07T01:58:08.677Z</published>
+    <updated>2021-02-07T01:58:08.677Z</updated>
     
     
     <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;当我开始学习opencv的时候，发现官方只提供了用于vc、android和ios的库文件，而我所用的c++开发环境是VS Code编辑器与mingw-w64编译器，缺少库文件使我很为难，所以最终决定通过源代码自行编译。经过将近三个小时，我成功了。事后总结，我发现编译源代码其实并不难，难在自己初次尝试时保持足够的耐心去解决一些奇奇怪怪的bug。第一次总是很辛苦，所以我写作这篇教程，希望能帮你少走弯路。   &lt;/p&gt;</summary>
@@ -123,11 +98,36 @@
   </entry>
   
   <entry>
+    <title>Kirikiroid2使用指南</title>
+    <link href="https://blog.jason.moe/posts/43f77427/"/>
+    <id>https://blog.jason.moe/posts/43f77427/</id>
+    <published>2021-02-07T01:58:08.676Z</published>
+    <updated>2021-02-07T01:58:08.676Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。&lt;br&gt;&amp;emsp;&amp;emsp;我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇&lt;a href=&quot;https://www.marron.work/2017/03/95/&quot; title=&quot;(完全版？)Kirikiroid2とXP3Playerの使い方&quot;&gt;日文教程&lt;/a&gt;，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。    &lt;/p&gt;</summary>
+    
+    
+    
+    <category term="世间好物" scheme="https://blog.jason.moe/categories/%E4%B8%96%E9%97%B4%E5%A5%BD%E7%89%A9/"/>
+    
+    
+    <category term="软件" scheme="https://blog.jason.moe/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+    <category term="模拟器" scheme="https://blog.jason.moe/tags/%E6%A8%A1%E6%8B%9F%E5%99%A8/"/>
+    
+    <category term="Galgame" scheme="https://blog.jason.moe/tags/Galgame/"/>
+    
+    <category term="教程" scheme="https://blog.jason.moe/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一键评教脚本</title>
     <link href="https://blog.jason.moe/posts/274d832d/"/>
     <id>https://blog.jason.moe/posts/274d832d/</id>
-    <published>2020-10-01T15:04:56.616Z</published>
-    <updated>2020-10-04T11:23:13.488Z</updated>
+    <published>2021-02-07T01:58:08.676Z</published>
+    <updated>2021-02-07T01:58:08.676Z</updated>
     
     
     <summary type="html">&lt;p&gt;一键评教脚本，仅适用于本校。&lt;del&gt;别给老师看见…&lt;/del&gt;  &lt;/p&gt;
@@ -149,8 +149,8 @@
     <title>推荐两款Chrome插件</title>
     <link href="https://blog.jason.moe/posts/a82482e7/"/>
     <id>https://blog.jason.moe/posts/a82482e7/</id>
-    <published>2020-06-24T13:55:05.653Z</published>
-    <updated>2020-10-04T11:22:56.051Z</updated>
+    <published>2021-02-07T01:58:08.676Z</published>
+    <updated>2021-02-07T01:58:08.676Z</updated>
     
     
     <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。&lt;/p&gt;</summary>
