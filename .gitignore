@@ -6,5 +6,6 @@ node_modules/
 public/
 .deploy*/
 
+themes/
 deploy.sh
 server.sh
