@@ -6,11 +6,12 @@ avatar:
   status:
     enable: true
     emoji: 😁
-    message: 
+    message:
 
 # 色彩
 colors:
   # bg: "#54B9FF"
+  # primary: "#e0fee8b3"
   dark:
     block: "#041322b3"
 
@@ -39,7 +40,7 @@ categories:
 # 主页面
 banner:
   enable: true
-  title: 
+  title:
     - J
     - a
     - s
@@ -72,6 +73,10 @@ search:
   placeholder: 想要搜些什么？
 
 # 侧边栏
+# sidebar:
+#   bg_image: https://pbs.twimg.com/profile_banners/235072186/1595581728/1500x500
+#   # bg_position: bottom 3rem center
+
 menu:
   custom:
     title: 留言板
@@ -109,7 +114,7 @@ footer:
   live_time:
     enable: true
     prefix: 本博客已运行
-    suffix: 
+    suffix:
     start_time: "2020-06-14T00:00:00"
 
 # 杂项
@@ -122,9 +127,11 @@ cursor:
 archive:
   last_word: 作者有点懒，只写了这些文章
 
-codeblock:
-  copy_btn: true
-
+# codeblock:
+#   copy_btn: true
+#   prismjs:
+#     light: default
+#     dark: tomorrow
 
 # 社交
 social:
@@ -144,14 +151,14 @@ social:
     link: mailto:2452816044@qq.com
     icon: icon-mail-line
     color: "#8E71C1"
-  - name: 微信公众号
-    link: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/social/wechat-official.jpg
-    icon: icon-wechat-2-line
-    color: "#1AAD19"
-  - name: 知乎
-    link: https://www.zhihu.com/people/jason-76-55
-    icon: icon-zhihu-line
-    color: "#0084FF"
+  # - name: 微信公众号
+  #   link: https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/social/wechat-official.jpg
+  #   icon: icon-wechat-2-line
+  #   color: "#1AAD19"
+  # - name: 知乎
+  #   link: https://www.zhihu.com/people/jason-76-55
+  #   icon: icon-zhihu-line
+  #   color: "#0084FF"
   - name: 网易云音乐
     link: https://music.163.com/#/user/home?id=553291867
     icon: icon-netease-cloud-music-line
@@ -161,12 +168,10 @@ social:
     icon: icon-send-plane-2-line
     color: black
 
-
-
 # 页面统计，搜索，seo
 wordcount:
   enable: true
-    
+
 busuanzi:
   enable: true
 
@@ -184,7 +189,7 @@ post_edit:
   url: https://github.com/zhizunjiege/zhizunjiege.github.io/tree/dev/source/
 
 # 播放器
-aplayer: 
+aplayer:
   global: true
   asset_inject: false
   widget:
@@ -204,7 +209,6 @@ pjax:
 # girls:
 #   enable: true
 
-
 # 评论系统
 comment:
   enable: true
@@ -212,7 +216,7 @@ comment:
     - 正在使用 Valine （基于 Leancloud）评论系统，
     - 您可以点击下方按钮切换对应评论系统。
     # - 正在使用 utterances （基于 GitHub Issues）评论系统。
-  candidates: 
+  candidates:
     - Valine
     - utterances
 

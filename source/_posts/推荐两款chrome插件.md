@@ -7,6 +7,8 @@ tags:
   - Chrome
 keywords: 'chrome,插件,markdown,gitzip'
 abbrlink: a82482e7
+date: 2020/6/27 10:00:00
+updated: 2021/3/27 12:33:00
 ---
 
 &emsp;&emsp;这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。

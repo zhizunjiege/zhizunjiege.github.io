@@ -8,6 +8,8 @@ tags:
   - 教程
 keywords: 'kirikiroid2,永不枯萎的世界与终焉之花,枯れない世界と終わる花'
 abbrlink: 43f77427
+date: 2020/6/21 12:00:00
+updated: 2021/3/27 12:32:00
 ---
 
 &emsp;&emsp;Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。  
