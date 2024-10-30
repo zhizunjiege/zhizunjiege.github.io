@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zhizunjiege.github.io/</id>
+    <title>Jason 妙妙屋</title>
+    <updated>2024-10-30T16:13:08.195Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Jason</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://zhizunjiege.github.io/"/>
+    <link rel="self" href="https://zhizunjiege.github.io/atom.xml"/>
+    <subtitle>个人博客站点，不定期分享技术文章或心灵感悟.</subtitle>
+    <logo>https://cdn.jsdelivr.net/gh/zhizunjiege/cdn/img/avatar.jpg</logo>
+    <icon>https://zhizunjiege.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © Jason</rights>
+    <entry>
+        <title type="html"><![CDATA[这半年]]></title>
+        <id>https://zhizunjiege.github.io/posts/half-of-this-year</id>
+        <link href="https://zhizunjiege.github.io/posts/half-of-this-year"/>
+        <updated>2021-02-07T10:11:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>喧繁忽去，四顾茫然。</p>
+</blockquote>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/half-of-this-year" target="_blank">https://zhizunjiege.github.io/posts/half-of-this-year</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:36:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一键评教脚本]]></title>
+        <id>https://zhizunjiege.github.io/posts/one-click-to-evaluate</id>
+        <link href="https://zhizunjiege.github.io/posts/one-click-to-evaluate"/>
+        <updated>2020-09-25T21:27:00.000Z</updated>
+        <content type="html"><![CDATA[<p>一键评教脚本，仅适用于本校。<s>别给老师看见...</s></p>
+<p>我知道早就已经有人写过了，不过我看那份代码有点过时了，稍微更新和优化了一下。</p>
+<p><s>其实主要还是自己写着玩</s></p>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/one-click-to-evaluate" target="_blank">https://zhizunjiege.github.io/posts/one-click-to-evaluate</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:35:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[那些令人惊艳的Hexo主题]]></title>
+        <id>https://zhizunjiege.github.io/posts/hexo-themes</id>
+        <link href="https://zhizunjiege.github.io/posts/hexo-themes"/>
+        <updated>2020-10-24T20:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>前言</h2>
+<p>刚开始用Hexo做静态博客的时候，我使用了一个叫Sakura的主题，页面做的很精美，我觉得挺不错，心里挺开心🙂</p>
+<p>直到用了一段时间，我发现有个难以忍受的缺点，那就是页面加载速度非常、非常、非常慢！慢到怀疑人生 …(⊙_⊙;)…</p>
+<p>好吧好吧，换一个吧。<s>反正这个也用腻了</s></p>
+<p>我在Hexo的官网找到了现有的主题列表，有三百多，一个个看过去，发现了很多令人惊艳的主题，心中暗叹“妙啊”，一番对比之后选择了Yun。</p>
+<p>其他主题也是很棒滴！我觉得这些主题的设计都很有意思，故在此做一个记录。</p>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/hexo-themes" target="_blank">https://zhizunjiege.github.io/posts/hexo-themes</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:34:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[推荐两款Chrome插件]]></title>
+        <id>https://zhizunjiege.github.io/posts/chrome-extensions</id>
+        <link href="https://zhizunjiege.github.io/posts/chrome-extensions"/>
+        <updated>2020-06-27T10:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>  这次给大家推荐两款实用的chrome插件，废话少说，直接上干货，插件ID和安装方法见附录。</p>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/chrome-extensions" target="_blank">https://zhizunjiege.github.io/posts/chrome-extensions</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:33:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用于mingw-w64的opencv4编译指南及资源]]></title>
+        <id>https://zhizunjiege.github.io/posts/compile-opencv4-with-mingw-w64</id>
+        <link href="https://zhizunjiege.github.io/posts/compile-opencv4-with-mingw-w64"/>
+        <updated>2020-09-24T20:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>  当我开始学习opencv的时候，发现官方只提供了用于vc、android和ios的库文件，而我所用的c++开发环境是VS Code编辑器与mingw-w64编译器，缺少库文件使我很为难，所以最终决定通过源代码自行编译。经过将近三个小时，我成功了。事后总结，我发现编译源代码其实并不难，难在自己初次尝试时保持足够的耐心去解决一些奇奇怪怪的bug。第一次总是很辛苦，所以我写作这篇教程，希望能帮你少走弯路。</p>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/compile-opencv4-with-mingw-w64" target="_blank">https://zhizunjiege.github.io/posts/compile-opencv4-with-mingw-w64</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:33:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kirikiroid2使用指南]]></title>
+        <id>https://zhizunjiege.github.io/posts/kirikiroid2-guidance</id>
+        <link href="https://zhizunjiege.github.io/posts/kirikiroid2-guidance"/>
+        <updated>2020-06-21T12:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>  Kirikiroid2是一款模拟器，能在移动端直接运行基于Kirikiri2和KirikiriZ引擎开发的游戏。<br>
+  我曾尝试着寻找这个软件的使用教程，希望能在手机上游玩「枯れない世界と終わる花」这款游戏，但在很多帖子里只得到相对模糊的介绍，而楼主们仿佛不屑于介绍地更为详细。直到我发现这篇[日文教程][1]，作者是赤西真論，原文有上万字，配图几十张，可以说是我见过最为详细的教程。本想对其进行翻译，但无奈原文实在太长，只好作一定删减，并以自己的角度来写作这一篇指南，希望对你有所帮助。</p>
+<br/><p>访问 <a href="https://zhizunjiege.github.io/posts/kirikiroid2-guidance" target="_blank">https://zhizunjiege.github.io/posts/kirikiroid2-guidance</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Jason</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2021-03-27T12:32:00.000Z</published>
+    </entry>
+</feed>
