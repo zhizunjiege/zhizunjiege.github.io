@@ -22,6 +22,11 @@ export default defineValaxyConfig<UserThemeConfig>({
         server: "netease",
         type: "playlist",
       },
+      options: {
+        animationIn: true,
+        autoHidden: true,
+        lyricHidden: true,
+      },
     }),
   ],
 });
