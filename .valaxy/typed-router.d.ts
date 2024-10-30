@@ -28,12 +28,12 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/那些令人惊艳的Hexo主题': RouteRecordInfo<'/posts/那些令人惊艳的Hexo主题', '/posts/那些令人惊艳的Hexo主题', Record<never, never>, Record<never, never>>,
-    '/posts/推荐两款chrome插件': RouteRecordInfo<'/posts/推荐两款chrome插件', '/posts/推荐两款chrome插件', Record<never, never>, Record<never, never>>,
-    '/posts/一键评教脚本': RouteRecordInfo<'/posts/一键评教脚本', '/posts/一键评教脚本', Record<never, never>, Record<never, never>>,
-    '/posts/用于mingw-w64的opencv4编译指南及资源': RouteRecordInfo<'/posts/用于mingw-w64的opencv4编译指南及资源', '/posts/用于mingw-w64的opencv4编译指南及资源', Record<never, never>, Record<never, never>>,
-    '/posts/这半年': RouteRecordInfo<'/posts/这半年', '/posts/这半年', Record<never, never>, Record<never, never>>,
-    '/posts/Kirikiroid2使用指南': RouteRecordInfo<'/posts/Kirikiroid2使用指南', '/posts/Kirikiroid2使用指南', Record<never, never>, Record<never, never>>,
+    '/posts/chrome-extensions': RouteRecordInfo<'/posts/chrome-extensions', '/posts/chrome-extensions', Record<never, never>, Record<never, never>>,
+    '/posts/compile-opencv4-with-mingw-w64': RouteRecordInfo<'/posts/compile-opencv4-with-mingw-w64', '/posts/compile-opencv4-with-mingw-w64', Record<never, never>, Record<never, never>>,
+    '/posts/half-of-this-year': RouteRecordInfo<'/posts/half-of-this-year', '/posts/half-of-this-year', Record<never, never>, Record<never, never>>,
+    '/posts/hexo-themes': RouteRecordInfo<'/posts/hexo-themes', '/posts/hexo-themes', Record<never, never>, Record<never, never>>,
+    '/posts/kirikiroid2-guidance': RouteRecordInfo<'/posts/kirikiroid2-guidance', '/posts/kirikiroid2-guidance', Record<never, never>, Record<never, never>>,
+    '/posts/one-click-to-evaluate': RouteRecordInfo<'/posts/one-click-to-evaluate', '/posts/one-click-to-evaluate', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }

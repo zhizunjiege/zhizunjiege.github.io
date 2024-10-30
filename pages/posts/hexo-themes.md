@@ -76,16 +76,6 @@ yunyoujun，永远滴神！
 
 另外，这个ふかふか的加载图，想rua~
 
-### [Nexmoe--折影轻梦]()
-
-> A special Hexo theme.
-
-整体的UI和上面提到的Shoka差不多，配色稍微硬一点没有Shoka那么柔软。（~~我怀疑Shoka作者是妹子~~）
-
-这个主题最突出的特点便是『大』图，文章封面图辣是真的大，可能适合一些自己玩摄影的人？(⊙_⊙;)...
-
-总的来说做的还是挺好的。
-
 ### [Freemind.bithack--AresX](https://ares-x.com/)
 
 > A dark , pixel art theme for Hexo.
@@ -102,7 +92,7 @@ deep ♂ dark ♂ fantacy
 
 For couples...嗯，我看了好几遍。
 
-另一个博客我也找出来了，[在这呢。](https://blog.endureblaze.cn/)
+另一个博客我也找出来了，[在这呢](https://blog.endureblaze.cn/
 
 淦，这年头不仅有情侣空间，还有情侣博客吗，这个世界充斥着对单身狗的迫害，气抖冷，我们单身博主们什么时候才能站起来！
 
