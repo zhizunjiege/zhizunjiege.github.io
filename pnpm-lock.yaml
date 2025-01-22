@@ -7,20 +7,19 @@ settings:
 importers:
 
   .:
-    dependencies:
-      valaxy:
-        specifier: 0.20.0
-        version: 0.20.0(@babel/parser@7.26.1)(@nuxt/kit@3.13.2(rollup@4.24.2))(@types/markdown-it@14.1.2)(@types/node@22.8.1)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.2)(typescript@5.6.3)
-      valaxy-theme-yun:
-        specifier: 0.20.0
-        version: 0.20.0(rollup@4.24.2)(vue@3.5.12(typescript@5.6.3))
     devDependencies:
       typescript:
         specifier: ^5.6.3
         version: 5.6.3
+      valaxy:
+        specifier: 0.20.0
+        version: 0.20.0(@babel/parser@7.26.1)(@nuxt/kit@3.13.2(rollup@4.24.2))(@types/markdown-it@14.1.2)(@types/node@22.8.1)(axios@1.7.7)(postcss@8.4.47)(rollup@4.24.2)(typescript@5.6.3)
       valaxy-addon-meting:
         specifier: ^0.1.4
         version: 0.1.4
+      valaxy-theme-yun:
+        specifier: 0.20.0
+        version: 0.20.0(rollup@4.24.2)(vue@3.5.12(typescript@5.6.3))
 
 packages:
 
@@ -1397,6 +1396,7 @@ packages:
 
   critters@0.0.25:
     resolution: {integrity: sha512-ROF/tjJyyRdM8/6W0VqoN5Ql05xAGnkf5b7f3sTEl1bI5jTQQf8O918RD/V9tEb9pRY/TKcvJekDbJtniHyPtQ==}
+    deprecated: Ownership of Critters has moved to the Nuxt team, who will be maintaining the project going forward. If you'd like to keep using Critters, please switch to the actively-maintained fork at https://github.com/danielroe/beasties
 
   cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
